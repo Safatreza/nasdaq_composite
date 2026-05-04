@@ -2,6 +2,9 @@
   "version": 2,
   "name": "rsl-nasdaq100-screening",
   "public": true,
+  "framework": null,
+  "buildCommand": "",
+  "installCommand": "",
   "outputDirectory": "web",
   "headers": [
     {
