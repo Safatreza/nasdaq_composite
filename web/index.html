@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RSL Nasdaq-100 Screening</title>
+  <style>
+    :root {
+      --navy: #1a3a5c;
+      --navy-light: #2563a8;
+      --green: #1a7f4b;
+      --green-bg: #d4edda;
+      --red: #c0392b;
+      --red-bg: #fde8e6;
+      --yellow-bg: #fff3cd;
+      --bg: #f0f4f8;
+      --card: #ffffff;
+      --border: #dde3ea;
+      --text: #1a2533;
+      --muted: #6b7a8d;
+      --font: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: var(--font); background: var(--bg); color: var(--text); font-size: 14px; }
+
+    header {
+      background: linear-gradient(135deg, var(--navy) 0%, var(--navy-light) 100%);
+      color: white; padding: 24px 32px; display: flex; justify-content: space-between; align-items: center;
+    }
+    header h1 { font-size: 22px; font-weight: 700; letter-spacing: -0.3px; }
+    header p  { font-size: 12px; opacity: 0.75; margin-top: 3px; }
+    .badge {
+      background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3);
+      border-radius: 20px; padding: 6px 14px; font-size: 12px; text-align: right;
+    }
+    .badge strong { display: block; font-size: 13px; }
+
+    main { max-width: 1600px; margin: 0 auto; padding: 24px 20px; }
+
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 14px; margin-bottom: 24px; }
+    .card {
+      background: var(--card); border-radius: 10px; padding: 18px 20px;
+      border: 1px solid var(--border); box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+    }
+    .card .label { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px; }
+    .card .value { font-size: 26px; font-weight: 700; color: var(--navy); line-height: 1; }
+    .card .sub   { font-size: 11px; color: var(--muted); margin-top: 4px; }
+    .card.green .value { color: var(--green); }
+    .card.red   .value { color: var(--red); }
+
+    .returns-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-bottom: 24px; }
+    .ret-card {
+      background: var(--card); border-radius: 10px; padding: 14px 18px;
+      border: 1px solid var(--border); text-align: center;
+    }
+    .ret-card .period  { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; }
+    .ret-card .ret-val { font-size: 22px; font-weight: 700; margin-top: 4px; }
+    .pos { color: var(--green); } .neg { color: var(--red); }
+
+    .section { background: var(--card); border-radius: 10px; border: 1px solid var(--border);
+               box-shadow: 0 1px 4px rgba(0,0,0,0.05); margin-bottom: 24px; overflow: hidden; }
+    .section-header {
+      padding: 16px 20px; border-bottom: 1px solid var(--border);
+      display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;
+    }
+    .section-header h2 { font-size: 15px; font-weight: 600; color: var(--navy); }
+    .section-body { overflow-x: auto; }
+
+    .controls { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+    input[type="text"] {
+      padding: 7px 12px; border: 1px solid var(--border); border-radius: 6px;
+      font-size: 13px; width: 220px; outline: none;
+    }
+    input[type="text"]:focus { border-color: var(--navy-light); }
+    select {
+      padding: 7px 10px; border: 1px solid var(--border); border-radius: 6px;
+      font-size: 13px; background: white; cursor: pointer; outline: none;
+    }
+    .btn {
+      padding: 7px 14px; border-radius: 6px; border: 1px solid var(--border);
+      background: white; font-size: 12px; cursor: pointer; font-weight: 500;
+      transition: background 0.15s;
+    }
+    .btn:hover  { background: #f0f4f8; }
+    .btn.active { background: var(--navy); color: white; border-color: var(--navy); }
+
+    table { width: 100%; border-collapse: collapse; min-width: 900px; }
+    th {
+      padding: 10px 12px; text-align: left; font-size: 11px; font-weight: 600;
+      text-transform: uppercase; letter-spacing: 0.4px; color: var(--muted);
+      background: #f8fafc; border-bottom: 1px solid var(--border);
+      cursor: pointer; user-select: none; white-space: nowrap;
+    }
+    th:hover { color: var(--navy); }
+    th.sort-asc::after  { content: ' ▲'; font-size: 9px; }
+    th.sort-desc::after { content: ' ▼'; font-size: 9px; }
+    td { padding: 9px 12px; border-bottom: 1px solid #f0f4f8; white-space: nowrap; }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: #f8fafc; }
+
+    .rsl-pill { display: inline-block; padding: 2px 8px; border-radius: 20px; font-weight: 700; font-size: 12px; }
+    .rsl-strong-bull { background: #d4edda; color: #145a32; }
+    .rsl-bull         { background: #d4edda; color: #1a7f4b; }
+    .rsl-neutral      { background: var(--yellow-bg); color: #856404; }
+    .rsl-bear         { background: #fde8e6; color: #922b21; }
+    .rsl-strong-bear  { background: #fde8e6; color: #6e1f17; }
+
+    tr.top25 td       { background: #f0fff4; }
+    tr.top25:hover td { background: #e6ffe9; }
+
+    .pos-val { color: var(--green); font-weight: 500; }
+    .neg-val { color: var(--red);   font-weight: 500; }
+    .ticker  { font-weight: 700; color: var(--navy); font-size: 13px; }
+    .company { color: var(--muted); font-size: 12px; max-width: 200px; overflow: hidden; text-overflow: ellipsis; }
+    .vol-surge { font-weight: 600; color: #7d4f00; background: #fff3cd; padding: 1px 6px; border-radius: 4px; }
+
+    .pagination { display: flex; gap: 6px; align-items: center; padding: 14px 20px;
+                  border-top: 1px solid var(--border); justify-content: center; }
+    .page-btn {
+      width: 32px; height: 32px; border-radius: 6px; border: 1px solid var(--border);
+      background: white; cursor: pointer; font-size: 13px; display: flex;
+      align-items: center; justify-content: center;
+    }
+    .page-btn:hover  { background: #f0f4f8; }
+    .page-btn.active { background: var(--navy); color: white; border-color: var(--navy); }
+    #page-info { font-size: 12px; color: var(--muted); padding: 0 8px; }
+
+    .sector-bar  { display: flex; align-items: center; gap: 8px; }
+    .bar-bg      { flex: 1; height: 6px; background: #e9ecef; border-radius: 3px; min-width: 60px; }
+    .bar-fill    { height: 6px; border-radius: 3px; background: var(--navy); }
+
+    footer { text-align: center; padding: 24px; color: var(--muted); font-size: 12px; }
+
+    @media (max-width: 640px) {
+      header { flex-direction: column; gap: 12px; }
+      .returns-row { grid-template-columns: repeat(2, 1fr); }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>RSL Nasdaq-100 Screening</h1>
+    <p>Relative Stärke Levy — Momentum-Ranking aller Nasdaq-100 Aktien</p>
+  </div>
+  <div class="badge">
+    <strong id="hdr-updated">Lädt…</strong>
+    <span id="hdr-count">— Aktien</span>
+  </div>
+</header>
+
+<main>
+  <div class="cards">
+    <div class="card">
+      <div class="label">Analysierte Aktien</div>
+      <div class="value" id="stat-total">—</div>
+      <div class="sub" id="stat-period">RSL-Periode: 26 Tage</div>
+    </div>
+    <div class="card">
+      <div class="label">Ø RSL</div>
+      <div class="value" id="stat-avg-rsl">—</div>
+      <div class="sub" id="stat-median-rsl">Median: —</div>
+    </div>
+    <div class="card green">
+      <div class="label">Bullisch (RSL &gt; 1)</div>
+      <div class="value" id="stat-bull">—</div>
+      <div class="sub" id="stat-bull-pct">— %</div>
+    </div>
+    <div class="card red">
+      <div class="label">Bärisch (RSL ≤ 1)</div>
+      <div class="value" id="stat-bear">—</div>
+      <div class="sub" id="stat-bear-pct">— %</div>
+    </div>
+    <div class="card">
+      <div class="label">Stärkste Aktie</div>
+      <div class="value" id="stat-max-ticker" style="font-size:20px">—</div>
+      <div class="sub" id="stat-max-rsl">RSL —</div>
+    </div>
+    <div class="card">
+      <div class="label">Schwächste Aktie</div>
+      <div class="value" id="stat-min-ticker" style="font-size:20px">—</div>
+      <div class="sub" id="stat-min-rsl">RSL —</div>
+    </div>
+  </div>
+
+  <div class="returns-row">
+    <div class="ret-card"><div class="period">Ø Rendite 26 Tage</div><div class="ret-val" id="ret-26t">—</div></div>
+    <div class="ret-card"><div class="period">Ø Rendite 1 Monat</div><div class="ret-val" id="ret-1m">—</div></div>
+    <div class="ret-card"><div class="period">Ø Rendite 3 Monate</div><div class="ret-val" id="ret-3m">—</div></div>
+    <div class="ret-card"><div class="period">Ø Rendite 6 Monate</div><div class="ret-val" id="ret-6m">—</div></div>
+  </div>
+
+  <div class="section">
+    <div class="section-header">
+      <h2>Alle Aktien — RSL Rangliste</h2>
+      <div class="controls">
+        <input type="text" id="search" placeholder="Suche Ticker / Unternehmen…" oninput="applyFilters()" />
+        <select id="sector-filter" onchange="applyFilters()">
+          <option value="">Alle Sektoren</option>
+        </select>
+        <button class="btn" id="btn-all" onclick="setView('all')">Alle</button>
+        <button class="btn active" id="btn-top25" onclick="setView('top25')">Top 25%</button>
+        <button class="btn" id="btn-bottom25" onclick="setView('bottom25')">Bottom 25%</button>
+      </div>
+    </div>
+    <div class="section-body">
+      <table id="rankings-table">
+        <thead>
+          <tr>
+            <th onclick="sortBy('rank')">#</th>
+            <th onclick="sortBy('ticker')">Ticker</th>
+            <th onclick="sortBy('sector')">Sektor</th>
+            <th onclick="sortBy('rsl')">RSL 26T</th>
+            <th onclick="sortBy('percentile')">Perz.</th>
+            <th onclick="sortBy('price')">Kurs $</th>
+            <th onclick="sortBy('change_26t')">26T %</th>
+            <th onclick="sortBy('change_1m')">1M %</th>
+            <th onclick="sortBy('change_3m')">3M %</th>
+            <th onclick="sortBy('change_6m')">6M %</th>
+            <th onclick="sortBy('pct_over_ma50')">% / MA50</th>
+            <th onclick="sortBy('pct_over_ma200')">% / MA200</th>
+            <th onclick="sortBy('vol_ratio')">Vol.Ratio</th>
+            <th onclick="sortBy('rel_vs_ndx')">vs NDX</th>
+            <th onclick="sortBy('beta')">Beta</th>
+            <th onclick="sortBy('pe_ratio')">KGV</th>
+          </tr>
+        </thead>
+        <tbody id="rankings-body"></tbody>
+      </table>
+    </div>
+    <div class="pagination">
+      <button class="page-btn" onclick="changePage(-1)">‹</button>
+      <div id="page-info"></div>
+      <button class="page-btn" onclick="changePage(1)">›</button>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-header"><h2>Sektoranalyse</h2></div>
+    <div class="section-body">
+      <table id="sector-table">
+        <thead>
+          <tr>
+            <th>Sektor</th>
+            <th onclick="sortSector('avg_rsl')">Ø RSL</th>
+            <th onclick="sortSector('median_rsl')">Median RSL</th>
+            <th onclick="sortSector('count')">Anzahl</th>
+            <th onclick="sortSector('avg_change_26t')">Ø 26T %</th>
+            <th onclick="sortSector('top25_pct')">In Top 25%</th>
+            <th style="min-width:160px">Verteilung Top 25%</th>
+            <th>Beste Aktie</th>
+          </tr>
+        </thead>
+        <tbody id="sector-body"></tbody>
+      </table>
+    </div>
+  </div>
+</main>
+
+<footer>
+  RSL Screening — Nur für Bildungs- und Forschungszwecke. Keine Anlageberatung. |
+  Daten: Yahoo Finance &amp; Wikipedia | 2× täglich aktualisiert (Mo–Fr)
+</footer>
+
+<script>
+let allData = [];
+let filteredData = [];
+let sectorData = [];
+let currentView = 'top25';
+let sortCol = 'rank';
+let sortDir = 1;
+let sectorSortCol = 'avg_rsl';
+let sectorSortDir = -1;
+let currentPage = 1;
+const PAGE_SIZE = 50;
+
+async function loadData() {
+  try {
+    const r = await fetch('data/nasdaq_rankings.json?v=' + Date.now());
+    const json = await r.json();
+    initPage(json);
+  } catch (e) {
+    document.querySelector('main').innerHTML =
+      '<div style="text-align:center;padding:60px;color:#c0392b">' +
+      '<strong>Datei nicht gefunden:</strong> data/nasdaq_rankings.json<br>' +
+      '<small>Bitte zuerst run_nasdaq_live.py ausführen.</small></div>';
+  }
+}
+
+function initPage(json) {
+  const m = json.metadata;
+  const s = json.stats;
+  allData    = json.rankings;
+  sectorData = json.sectors;
+
+  document.getElementById('hdr-updated').textContent = 'Stand: ' + m.updated_display;
+  document.getElementById('hdr-count').textContent   = m.total_analyzed + ' Aktien';
+
+  document.getElementById('stat-total').textContent      = m.total_analyzed;
+  document.getElementById('stat-period').textContent     = 'RSL-Periode: ' + m.rsl_period_days + ' Tage';
+  document.getElementById('stat-avg-rsl').textContent    = s.avg_rsl.toFixed(4);
+  document.getElementById('stat-median-rsl').textContent = 'Median: ' + s.median_rsl.toFixed(4);
+  document.getElementById('stat-bull').textContent       = s.bullish_count;
+  document.getElementById('stat-bull-pct').textContent   = (s.bullish_count / m.total_analyzed * 100).toFixed(1) + '%';
+  document.getElementById('stat-bear').textContent       = s.bearish_count;
+  document.getElementById('stat-bear-pct').textContent   = (s.bearish_count / m.total_analyzed * 100).toFixed(1) + '%';
+  document.getElementById('stat-max-ticker').textContent = s.max_ticker;
+  document.getElementById('stat-max-rsl').textContent    = 'RSL ' + s.max_rsl.toFixed(4);
+  document.getElementById('stat-min-ticker').textContent = s.min_ticker;
+  document.getElementById('stat-min-rsl').textContent    = 'RSL ' + s.min_rsl.toFixed(4);
+
+  setReturn('ret-26t', s.returns_avg['26t']);
+  setReturn('ret-1m',  s.returns_avg['1m']);
+  setReturn('ret-3m',  s.returns_avg['3m']);
+  setReturn('ret-6m',  s.returns_avg['6m']);
+
+  const sel = document.getElementById('sector-filter');
+  [...new Set(allData.map(r => r.sector))].sort().forEach(sec => {
+    const o = document.createElement('option'); o.value = sec; o.textContent = sec; sel.appendChild(o);
+  });
+
+  applyFilters();
+  renderSectors();
+}
+
+function setReturn(id, val) {
+  const el = document.getElementById(id);
+  if (val == null) { el.textContent = 'N/A'; return; }
+  el.textContent = (val >= 0 ? '+' : '') + val.toFixed(2) + '%';
+  el.className = 'ret-val ' + (val >= 0 ? 'pos' : 'neg');
+}
+
+function rslClass(rsl) {
+  if (rsl == null)  return '';
+  if (rsl >= 1.05)  return 'rsl-strong-bull';
+  if (rsl >= 1.00)  return 'rsl-bull';
+  if (rsl >= 0.95)  return 'rsl-neutral';
+  if (rsl >= 0.90)  return 'rsl-bear';
+  return 'rsl-strong-bear';
+}
+
+function fmtPct(v) {
+  if (v == null) return '<span style="color:#aaa">—</span>';
+  const cls = v >= 0 ? 'pos-val' : 'neg-val';
+  return `<span class="${cls}">${v >= 0 ? '+' : ''}${v.toFixed(2)}%</span>`;
+}
+
+function fmtNum(v, dec=2) {
+  if (v == null || isNaN(v)) return '<span style="color:#aaa">—</span>';
+  return v.toFixed(dec);
+}
+
+function setView(v) {
+  currentView = v; currentPage = 1;
+  document.getElementById('btn-all').classList.toggle('active', v === 'all');
+  document.getElementById('btn-top25').classList.toggle('active', v === 'top25');
+  document.getElementById('btn-bottom25').classList.toggle('active', v === 'bottom25');
+  applyFilters();
+}
+
+function applyFilters() {
+  const q      = document.getElementById('search').value.toLowerCase();
+  const sector = document.getElementById('sector-filter').value;
+  const top25n = Math.ceil(allData.length * 0.25);
+
+  let data = allData.filter(r => {
+    if (q && !r.ticker.toLowerCase().includes(q) && !r.company.toLowerCase().includes(q)) return false;
+    if (sector && r.sector !== sector) return false;
+    if (currentView === 'top25'    && r.rank > top25n) return false;
+    if (currentView === 'bottom25' && r.rank <= allData.length - top25n) return false;
+    return true;
+  });
+
+  data.sort((a, b) => {
+    const av = a[sortCol] ?? -Infinity;
+    const bv = b[sortCol] ?? -Infinity;
+    return sortDir * (av < bv ? -1 : av > bv ? 1 : 0);
+  });
+
+  filteredData = data; currentPage = 1; renderTable();
+}
+
+function sortBy(col) {
+  if (sortCol === col) { sortDir *= -1; } else { sortCol = col; sortDir = col === 'rank' ? 1 : -1; }
+  document.querySelectorAll('#rankings-table th').forEach(th => th.className = '');
+  event.target.className = sortDir === 1 ? 'sort-asc' : 'sort-desc';
+  applyFilters();
+}
+
+function renderTable() {
+  const top25n = Math.ceil(allData.length * 0.25);
+  const start  = (currentPage - 1) * PAGE_SIZE;
+  const page   = filteredData.slice(start, start + PAGE_SIZE);
+  const tbody  = document.getElementById('rankings-body');
+
+  tbody.innerHTML = page.map(r => {
+    const isTop = r.rank <= top25n;
+    const vol = r.vol_ratio != null && r.vol_ratio > 1.5
+      ? `<span class="vol-surge">${r.vol_ratio.toFixed(2)}x</span>`
+      : (r.vol_ratio != null ? r.vol_ratio.toFixed(2) : '—');
+    return `<tr class="${isTop ? 'top25' : ''}">
+      <td style="color:var(--muted);font-size:12px">${r.rank}</td>
+      <td><div class="ticker">${r.ticker}</div><div class="company">${r.company}</div></td>
+      <td style="font-size:12px;color:var(--muted)">${r.sector}</td>
+      <td><span class="rsl-pill ${rslClass(r.rsl)}">${r.rsl != null ? r.rsl.toFixed(4) : '—'}</span></td>
+      <td style="font-size:12px">${r.percentile != null ? r.percentile.toFixed(1) + '%' : '—'}</td>
+      <td>$${r.price != null ? r.price.toFixed(2) : '—'}</td>
+      <td>${fmtPct(r.change_26t)}</td>
+      <td>${fmtPct(r.change_1m)}</td>
+      <td>${fmtPct(r.change_3m)}</td>
+      <td>${fmtPct(r.change_6m)}</td>
+      <td>${fmtPct(r.pct_over_ma50)}</td>
+      <td>${fmtPct(r.pct_over_ma200)}</td>
+      <td>${vol}</td>
+      <td>${fmtPct(r.rel_vs_ndx)}</td>
+      <td>${fmtNum(r.beta)}</td>
+      <td>${r.pe_ratio != null ? fmtNum(r.pe_ratio) : '—'}</td>
+    </tr>`;
+  }).join('');
+
+  const totalPages = Math.ceil(filteredData.length / PAGE_SIZE);
+  document.getElementById('page-info').textContent =
+    `Seite ${currentPage} / ${totalPages} (${filteredData.length} Aktien)`;
+}
+
+function changePage(delta) {
+  const totalPages = Math.ceil(filteredData.length / PAGE_SIZE);
+  currentPage = Math.max(1, Math.min(totalPages, currentPage + delta));
+  renderTable();
+  document.getElementById('rankings-table').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function sortSector(col) {
+  if (sectorSortCol === col) { sectorSortDir *= -1; } else { sectorSortCol = col; sectorSortDir = -1; }
+  renderSectors();
+}
+
+function renderSectors() {
+  const sorted = [...sectorData].sort((a, b) => {
+    const av = a[sectorSortCol] ?? -Infinity;
+    const bv = b[sectorSortCol] ?? -Infinity;
+    return sectorSortDir * (av < bv ? -1 : av > bv ? 1 : 0);
+  });
+  const maxPct = Math.max(...sorted.map(s => s.top25_pct || 0));
+
+  document.getElementById('sector-body').innerHTML = sorted.map(s => `
+    <tr>
+      <td style="font-weight:600">${s.sector}</td>
+      <td><span class="rsl-pill ${rslClass(s.avg_rsl)}">${s.avg_rsl.toFixed(4)}</span></td>
+      <td>${s.median_rsl.toFixed(4)}</td>
+      <td>${s.count}</td>
+      <td>${fmtPct(s.avg_change_26t)}</td>
+      <td>${s.in_top25} / ${s.count} <span style="color:var(--muted);font-size:11px">(${s.top25_pct.toFixed(1)}%)</span></td>
+      <td>
+        <div class="sector-bar">
+          <div class="bar-bg"><div class="bar-fill" style="width:${maxPct > 0 ? (s.top25_pct/maxPct*100).toFixed(0) : 0}%"></div></div>
+          <span style="font-size:11px;color:var(--muted);width:36px;text-align:right">${s.top25_pct.toFixed(1)}%</span>
+        </div>
+      </td>
+      <td><span class="ticker">${s.best_ticker}</span></td>
+    </tr>`).join('');
+}
+
+loadData();
+</script>
+</body>
+</html>

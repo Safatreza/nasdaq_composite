@@ -1,0 +1,70 @@
+name: RSL Nasdaq-100 Update
+
+on:
+  schedule:
+    - cron: '0 10,22 * * 1-5'  # Weekdays at 10:00 UTC (pre-market) and 22:00 UTC (post-close)
+  workflow_dispatch:  # Manual trigger also available
+
+jobs:
+  update-nasdaq-data:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: 'requirements.txt'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run RSL Nasdaq-100 screening
+        run: python run_nasdaq_live.py
+        env:
+          PYTHONUNBUFFERED: "1"
+
+      - name: Validate output (require ≥ 90 stocks)
+        run: |
+          python - <<'EOF'
+          import json, sys, os
+          path = 'web/data/nasdaq_rankings.json'
+          if not os.path.exists(path):
+              print("ERROR: JSON file not found — run_nasdaq_live.py may have crashed.")
+              sys.exit(1)
+          with open(path) as f:
+              data = json.load(f)
+          total = data['metadata']['total_analyzed']
+          failed = data['metadata']['failed']
+          print(f"Analyzed: {total}, Failed: {failed}")
+          if total < 90:
+              print(f"ERROR: only {total} stocks analyzed — aborting commit.")
+              sys.exit(1)
+          EOF
+
+      - name: Commit updated data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add web/data/nasdaq_rankings.json
+          git diff --cached --quiet || git commit -m "chore: Nasdaq-100 RSL update $(date +'%Y-%m-%d %H:%M UTC')"
+          git push
+
+      - name: Trigger Vercel deployment
+        continue-on-error: true
+        env:
+          VERCEL_DEPLOY_HOOK_URL: ${{ secrets.VERCEL_DEPLOY_HOOK_URL }}
+        run: |
+          if [ -n "$VERCEL_DEPLOY_HOOK_URL" ]; then
+            curl -X POST "$VERCEL_DEPLOY_HOOK_URL"
+          else
+            echo "No VERCEL_DEPLOY_HOOK_URL set — Vercel will deploy automatically from the git push."
+          fi
