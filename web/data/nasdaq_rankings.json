@@ -1,14 +1,14 @@
 {
   "metadata": {
-    "updated": "2026-05-08T22:55:39",
-    "updated_display": "08.05.2026 22:55",
+    "updated": "2026-05-11T12:39:39",
+    "updated_display": "11.05.2026 12:39",
     "total_analyzed": 101,
     "failed": 0,
     "rsl_period_days": 26,
     "index": "Nasdaq-100"
   },
   "stats": {
-    "avg_rsl": 1.0604,
+    "avg_rsl": 1.0605,
     "median_rsl": 1.0217,
     "max_rsl": 1.6044,
     "max_ticker": "INTC",
@@ -17,10 +17,10 @@
     "bullish_count": 58,
     "bearish_count": 43,
     "returns_avg": {
-      "26t": 15.63,
-      "1m": 10.65,
-      "3m": 14.47,
-      "6m": 20.87
+      "26t": 15.64,
+      "1m": 10.66,
+      "3m": 14.48,
+      "6m": 20.88
     }
   },
   "rankings": [
@@ -39,7 +39,7 @@
       "pct_over_ma50": 101.13,
       "pct_over_ma200": 195.04,
       "pct_from_high": 0.0,
-      "vol_ratio": 1.41,
+      "vol_ratio": 1.42,
       "rel_vs_ndx": 126.38,
       "beta": 2.19,
       "pe_ratio": null,
@@ -63,7 +63,7 @@
       "vol_ratio": 1.1,
       "rel_vs_ndx": 101.11,
       "beta": null,
-      "pe_ratio": 53.486477,
+      "pe_ratio": 53.468174,
       "div_yield": 0.0
     },
     {
@@ -83,8 +83,8 @@
       "pct_from_high": 0.0,
       "vol_ratio": 2.18,
       "rel_vs_ndx": 44.72,
-      "beta": null,
-      "pe_ratio": 500.4,
+      "beta": 1.295,
+      "pe_ratio": 526.7369,
       "div_yield": 0.0
     },
     {
@@ -105,8 +105,8 @@
       "vol_ratio": 1.24,
       "rel_vs_ndx": 82.33,
       "beta": 1.919,
-      "pe_ratio": 35.21028,
-      "div_yield": 9.0
+      "pe_ratio": 35.209335,
+      "div_yield": 8.0
     },
     {
       "rank": 5,
@@ -126,7 +126,7 @@
       "vol_ratio": 1.52,
       "rel_vs_ndx": 87.7,
       "beta": 2.399,
-      "pe_ratio": 152.74832,
+      "pe_ratio": 151.73,
       "div_yield": 0.0
     },
     {
@@ -147,8 +147,8 @@
       "vol_ratio": 2.11,
       "rel_vs_ndx": 51.2,
       "beta": 1.493,
-      "pe_ratio": 23.558064,
-      "div_yield": 182.0
+      "pe_ratio": 23.583424,
+      "div_yield": 168.0
     },
     {
       "rank": 7,
@@ -168,7 +168,7 @@
       "vol_ratio": 1.47,
       "rel_vs_ndx": 16.64,
       "beta": 0.919,
-      "pe_ratio": 47.13636,
+      "pe_ratio": 44.21318,
       "div_yield": 0.0
     },
     {
@@ -189,8 +189,8 @@
       "vol_ratio": 1.35,
       "rel_vs_ndx": 60.7,
       "beta": 2.009,
-      "pe_ratio": 73.97353,
-      "div_yield": 39.0
+      "pe_ratio": 74.043526,
+      "div_yield": 38.0
     },
     {
       "rank": 9,
@@ -207,10 +207,10 @@
       "pct_over_ma50": 43.05,
       "pct_over_ma200": 138.94,
       "pct_from_high": -0.65,
-      "vol_ratio": 1.03,
+      "vol_ratio": 1.04,
       "rel_vs_ndx": 41.15,
       "beta": 2.158,
-      "pe_ratio": 28.742514,
+      "pe_ratio": 28.742813,
       "div_yield": 13.0
     },
     {
@@ -231,8 +231,8 @@
       "vol_ratio": 1.42,
       "rel_vs_ndx": 29.92,
       "beta": 1.776,
-      "pe_ratio": 28.205742,
-      "div_yield": 140.0
+      "pe_ratio": 28.178776,
+      "div_yield": 138.0
     },
     {
       "rank": 11,
@@ -270,11 +270,11 @@
       "pct_over_ma50": 32.62,
       "pct_over_ma200": 45.66,
       "pct_from_high": -3.72,
-      "vol_ratio": 1.39,
+      "vol_ratio": 1.4,
       "rel_vs_ndx": 29.47,
       "beta": 1.737,
-      "pe_ratio": null,
-      "div_yield": 0.0
+      "pe_ratio": 450.4091,
+      "div_yield": 184.0
     },
     {
       "rank": 13,
@@ -291,7 +291,7 @@
       "pct_over_ma50": 27.26,
       "pct_over_ma200": -16.05,
       "pct_from_high": -58.85,
-      "vol_ratio": 0.82,
+      "vol_ratio": 0.83,
       "rel_vs_ndx": 34.97,
       "beta": 3.595,
       "pe_ratio": null,
@@ -333,11 +333,11 @@
       "pct_over_ma50": 30.5,
       "pct_over_ma200": 49.46,
       "pct_from_high": -0.57,
-      "vol_ratio": 1.07,
+      "vol_ratio": 1.08,
       "rel_vs_ndx": 26.86,
       "beta": 1.298,
-      "pe_ratio": 49.19658,
-      "div_yield": 199.0
+      "pe_ratio": 49.28082,
+      "div_yield": 197.0
     },
     {
       "rank": 16,
@@ -357,8 +357,8 @@
       "vol_ratio": 0.8,
       "rel_vs_ndx": 37.34,
       "beta": 2.251,
-      "pe_ratio": 55.416943,
-      "div_yield": 15.0
+      "pe_ratio": 55.59804,
+      "div_yield": 14.0
     },
     {
       "rank": 17,
@@ -375,10 +375,10 @@
       "pct_over_ma50": 23.82,
       "pct_over_ma200": 40.13,
       "pct_from_high": 0.0,
-      "vol_ratio": 0.88,
+      "vol_ratio": 0.89,
       "rel_vs_ndx": 13.93,
       "beta": 1.267,
-      "pe_ratio": 30.618792,
+      "pe_ratio": 30.565449,
       "div_yield": 22.0
     },
     {
@@ -420,7 +420,7 @@
       "vol_ratio": 0.88,
       "rel_vs_ndx": 13.26,
       "beta": 1.267,
-      "pe_ratio": 30.262957,
+      "pe_ratio": 30.309158,
       "div_yield": 22.0
     },
     {
@@ -438,7 +438,7 @@
       "pct_over_ma50": 19.33,
       "pct_over_ma200": 12.44,
       "pct_from_high": -2.86,
-      "vol_ratio": 0.96,
+      "vol_ratio": 0.97,
       "rel_vs_ndx": 8.55,
       "beta": 1.131,
       "pe_ratio": 84.74299,
@@ -459,7 +459,7 @@
       "pct_over_ma50": 11.79,
       "pct_over_ma200": 5.92,
       "pct_from_high": -12.56,
-      "vol_ratio": 0.87,
+      "vol_ratio": 0.88,
       "rel_vs_ndx": -2.79,
       "beta": 1.793,
       "pe_ratio": 400.3271,
@@ -480,10 +480,10 @@
       "pct_over_ma50": 13.54,
       "pct_over_ma200": 19.19,
       "pct_from_high": -0.43,
-      "vol_ratio": 1.32,
+      "vol_ratio": 1.33,
       "rel_vs_ndx": -2.35,
       "beta": 0.501,
-      "pe_ratio": 41.685993,
+      "pe_ratio": 41.694202,
       "div_yield": 0.0
     },
     {
@@ -501,11 +501,11 @@
       "pct_over_ma50": 22.03,
       "pct_over_ma200": 64.71,
       "pct_from_high": -1.05,
-      "vol_ratio": 1.01,
+      "vol_ratio": 1.02,
       "rel_vs_ndx": 13.03,
       "beta": 1.819,
-      "pe_ratio": 55.48113,
-      "div_yield": 36.0
+      "pe_ratio": 55.58601,
+      "div_yield": 35.0
     },
     {
       "rank": 24,
@@ -525,7 +525,7 @@
       "vol_ratio": 0.91,
       "rel_vs_ndx": 8.86,
       "beta": 1.245,
-      "pe_ratio": 79.21472,
+      "pe_ratio": 79.3364,
       "div_yield": 0.0
     },
     {
@@ -567,8 +567,8 @@
       "vol_ratio": 0.94,
       "rel_vs_ndx": 9.26,
       "beta": 1.194,
-      "pe_ratio": 76.146255,
-      "div_yield": 100.0
+      "pe_ratio": 76.28571,
+      "div_yield": 98.0
     },
     {
       "rank": 27,
@@ -589,7 +589,7 @@
       "rel_vs_ndx": 0.63,
       "beta": 0.912,
       "pe_ratio": 34.73741,
-      "div_yield": 182.0
+      "div_yield": 174.0
     },
     {
       "rank": 28,
@@ -609,8 +609,8 @@
       "vol_ratio": 1.11,
       "rel_vs_ndx": -0.45,
       "beta": 1.373,
-      "pe_ratio": 52.489944,
-      "div_yield": 58.0
+      "pe_ratio": 52.35186,
+      "div_yield": 55.0
     },
     {
       "rank": 29,
@@ -627,11 +627,11 @@
       "pct_over_ma50": 16.73,
       "pct_over_ma200": 58.6,
       "pct_from_high": 0.0,
-      "vol_ratio": 1.05,
+      "vol_ratio": 1.09,
       "rel_vs_ndx": 3.38,
       "beta": 1.654,
-      "pe_ratio": 44.752316,
-      "div_yield": 52.0
+      "pe_ratio": 44.652054,
+      "div_yield": 49.0
     },
     {
       "rank": 30,
@@ -651,8 +651,8 @@
       "vol_ratio": 1.13,
       "rel_vs_ndx": 21.55,
       "beta": 1.742,
-      "pe_ratio": 114.10121,
-      "div_yield": 51.0
+      "pe_ratio": 114.92031,
+      "div_yield": 50.0
     },
     {
       "rank": 31,
@@ -673,7 +673,7 @@
       "rel_vs_ndx": 15.12,
       "beta": 1.44,
       "pe_ratio": 83.984375,
-      "div_yield": 63.0
+      "div_yield": 60.0
     },
     {
       "rank": 32,
@@ -690,11 +690,11 @@
       "pct_over_ma50": 11.61,
       "pct_over_ma200": 14.24,
       "pct_from_high": 0.0,
-      "vol_ratio": 1.11,
+      "vol_ratio": 1.14,
       "rel_vs_ndx": -6.97,
       "beta": 1.065,
-      "pe_ratio": 35.55394,
-      "div_yield": 38.0
+      "pe_ratio": 35.460335,
+      "div_yield": 37.0
     },
     {
       "rank": 33,
@@ -714,7 +714,7 @@
       "vol_ratio": 0.88,
       "rel_vs_ndx": 8.41,
       "beta": 1.468,
-      "pe_ratio": 32.656284,
+      "pe_ratio": 32.578255,
       "div_yield": 0.0
     },
     {
@@ -735,7 +735,7 @@
       "vol_ratio": 0.88,
       "rel_vs_ndx": -0.27,
       "beta": 2.244,
-      "pe_ratio": 43.828922,
+      "pe_ratio": 43.832382,
       "div_yield": 2.0
     },
     {
@@ -756,8 +756,8 @@
       "vol_ratio": 1.18,
       "rel_vs_ndx": 1.65,
       "beta": 1.501,
-      "pe_ratio": 52.996593,
-      "div_yield": 43.0
+      "pe_ratio": 52.90659,
+      "div_yield": 49.0
     },
     {
       "rank": 36,
@@ -778,7 +778,7 @@
       "rel_vs_ndx": -16.45,
       "beta": 0.046,
       "pe_ratio": null,
-      "div_yield": 677.0
+      "div_yield": 668.0
     },
     {
       "rank": 37,
@@ -795,11 +795,11 @@
       "pct_over_ma50": 5.57,
       "pct_over_ma200": 3.11,
       "pct_from_high": -16.56,
-      "vol_ratio": 0.85,
+      "vol_ratio": 0.86,
       "rel_vs_ndx": -7.67,
       "beta": 0.416,
       "pe_ratio": 21.355555,
-      "div_yield": 323.0
+      "div_yield": 319.0
     },
     {
       "rank": 38,
@@ -820,7 +820,7 @@
       "rel_vs_ndx": -5.47,
       "beta": 1.009,
       "pe_ratio": 80.09924,
-      "div_yield": 238.0
+      "div_yield": 236.0
     },
     {
       "rank": 39,
@@ -829,19 +829,19 @@
       "sector": "Diversified Commercial Services",
       "rsl": 1.0485,
       "percentile": 62.4,
-      "price": 212.99,
-      "change_26t": 4.4,
+      "price": 213.0,
+      "change_26t": 4.41,
       "change_1m": 9.02,
-      "change_3m": 2.28,
+      "change_3m": 2.29,
       "change_6m": -16.96,
       "pct_over_ma50": 3.16,
       "pct_over_ma200": -15.34,
       "pct_from_high": -33.19,
       "vol_ratio": 0.76,
-      "rel_vs_ndx": -17.18,
+      "rel_vs_ndx": -17.17,
       "beta": 0.841,
-      "pe_ratio": 19.85042,
-      "div_yield": 318.0
+      "pe_ratio": 19.887487,
+      "div_yield": 319.0
     },
     {
       "rank": 40,
@@ -861,7 +861,7 @@
       "vol_ratio": 1.5,
       "rel_vs_ndx": -0.31,
       "beta": 2.366,
-      "pe_ratio": 40.67274,
+      "pe_ratio": 40.81446,
       "div_yield": 0.0
     },
     {
@@ -882,8 +882,8 @@
       "vol_ratio": 0.7,
       "rel_vs_ndx": -14.61,
       "beta": 0.404,
-      "pe_ratio": 30.470297,
-      "div_yield": 326.0
+      "pe_ratio": 30.468813,
+      "div_yield": 325.0
     },
     {
       "rank": 42,
@@ -988,7 +988,7 @@
       "rel_vs_ndx": -19.15,
       "beta": null,
       "pe_ratio": 20.735098,
-      "div_yield": 505.0
+      "div_yield": 507.0
     },
     {
       "rank": 47,
@@ -1005,11 +1005,11 @@
       "pct_over_ma50": 6.51,
       "pct_over_ma200": 20.03,
       "pct_from_high": -2.92,
-      "vol_ratio": 0.85,
+      "vol_ratio": 0.87,
       "rel_vs_ndx": -12.82,
       "beta": 1.238,
       "pe_ratio": 27.503069,
-      "div_yield": 126.0
+      "div_yield": 125.0
     },
     {
       "rank": 48,
@@ -1029,7 +1029,7 @@
       "vol_ratio": 1.67,
       "rel_vs_ndx": -23.83,
       "beta": 1.435,
-      "pe_ratio": 162.71774,
+      "pe_ratio": 164.04065,
       "div_yield": 0.0
     },
     {
@@ -1050,7 +1050,7 @@
       "vol_ratio": 0.95,
       "rel_vs_ndx": -18.88,
       "beta": 1.322,
-      "pe_ratio": 46.83908,
+      "pe_ratio": 46.749523,
       "div_yield": 0.0
     },
     {
@@ -1071,8 +1071,8 @@
       "vol_ratio": 0.9,
       "rel_vs_ndx": -10.42,
       "beta": 1.093,
-      "pe_ratio": 24.72424,
-      "div_yield": 87.0
+      "pe_ratio": 24.750149,
+      "div_yield": 88.0
     },
     {
       "rank": 51,
@@ -1093,15 +1093,36 @@
       "rel_vs_ndx": -10.29,
       "beta": 1.155,
       "pe_ratio": 40.97571,
-      "div_yield": 55.0
+      "div_yield": 56.0
     },
     {
       "rank": 52,
+      "ticker": "WMT",
+      "company": "Walmart",
+      "sector": "Department/Specialty Retail Stores",
+      "rsl": 1.0193,
+      "percentile": 49.5,
+      "price": 130.43,
+      "change_26t": 3.89,
+      "change_1m": 4.9,
+      "change_3m": -2.02,
+      "change_6m": 29.68,
+      "pct_over_ma50": 3.57,
+      "pct_over_ma200": 15.71,
+      "pct_from_high": -2.2,
+      "vol_ratio": 0.74,
+      "rel_vs_ndx": -17.69,
+      "beta": 0.652,
+      "pe_ratio": 47.776554,
+      "div_yield": 76.0
+    },
+    {
+      "rank": 53,
       "ticker": "TRI",
       "company": "Thomson Reuters",
       "sector": "Computer Software",
       "rsl": 1.0181,
-      "percentile": 49.5,
+      "percentile": 48.5,
       "price": 92.94,
       "change_26t": 3.05,
       "change_1m": 6.3,
@@ -1114,15 +1135,15 @@
       "rel_vs_ndx": -18.53,
       "beta": 0.201,
       "pe_ratio": 26.706898,
-      "div_yield": 280.0
+      "div_yield": 282.0
     },
     {
-      "rank": 53,
+      "rank": 54,
       "ticker": "CPRT",
       "company": "Copart",
       "sector": "Retail",
       "rsl": 1.0179,
-      "percentile": 48.5,
+      "percentile": 47.5,
       "price": 33.94,
       "change_26t": 1.62,
       "change_1m": 2.08,
@@ -1131,32 +1152,11 @@
       "pct_over_ma50": -0.35,
       "pct_over_ma200": -16.24,
       "pct_from_high": -46.84,
-      "vol_ratio": 0.73,
+      "vol_ratio": 0.77,
       "rel_vs_ndx": -19.96,
       "beta": 1.02,
       "pe_ratio": 21.345911,
       "div_yield": 0.0
-    },
-    {
-      "rank": 54,
-      "ticker": "WMT",
-      "company": "Walmart",
-      "sector": "Department/Specialty Retail Stores",
-      "rsl": 1.0175,
-      "percentile": 47.5,
-      "price": 130.43,
-      "change_26t": 3.69,
-      "change_1m": 4.7,
-      "change_3m": -2.2,
-      "change_6m": 29.44,
-      "pct_over_ma50": 3.38,
-      "pct_over_ma200": 15.49,
-      "pct_from_high": -2.38,
-      "vol_ratio": 0.73,
-      "rel_vs_ndx": -17.89,
-      "beta": 0.652,
-      "pe_ratio": 47.776554,
-      "div_yield": 76.0
     },
     {
       "rank": 55,
@@ -1177,7 +1177,7 @@
       "rel_vs_ndx": -15.64,
       "beta": 0.797,
       "pe_ratio": 49.59155,
-      "div_yield": 149.0
+      "div_yield": 148.0
     },
     {
       "rank": 56,
@@ -1198,7 +1198,7 @@
       "rel_vs_ndx": -27.48,
       "beta": 1.035,
       "pe_ratio": 25.76788,
-      "div_yield": 114.0
+      "div_yield": 117.0
     },
     {
       "rank": 57,
@@ -1218,7 +1218,7 @@
       "vol_ratio": 1.03,
       "rel_vs_ndx": -22.04,
       "beta": 0.908,
-      "pe_ratio": 52.45918,
+      "pe_ratio": 52.350285,
       "div_yield": 58.0
     },
     {
@@ -1236,10 +1236,10 @@
       "pct_over_ma50": 3.55,
       "pct_over_ma200": 26.05,
       "pct_from_high": -1.35,
-      "vol_ratio": 0.9,
+      "vol_ratio": 1.0,
       "rel_vs_ndx": -18.93,
       "beta": 0.875,
-      "pe_ratio": 34.21364,
+      "pe_ratio": 34.11027,
       "div_yield": 79.0
     },
     {
@@ -1260,8 +1260,8 @@
       "vol_ratio": 0.84,
       "rel_vs_ndx": -15.41,
       "beta": 0.97,
-      "pe_ratio": 20.41214,
-      "div_yield": 145.0
+      "pe_ratio": 20.415335,
+      "div_yield": 144.0
     },
     {
       "rank": 60,
@@ -1278,11 +1278,11 @@
       "pct_over_ma50": -4.91,
       "pct_over_ma200": -9.62,
       "pct_from_high": -26.16,
-      "vol_ratio": 0.73,
+      "vol_ratio": 0.74,
       "rel_vs_ndx": -25.44,
       "beta": 0.32,
-      "pe_ratio": 20.555202,
-      "div_yield": 210.0
+      "pe_ratio": 20.577047,
+      "div_yield": 211.0
     },
     {
       "rank": 61,
@@ -1299,7 +1299,7 @@
       "pct_over_ma50": -1.06,
       "pct_over_ma200": 17.36,
       "pct_from_high": -9.57,
-      "vol_ratio": 0.62,
+      "vol_ratio": 0.64,
       "rel_vs_ndx": -22.35,
       "beta": 1.574,
       "pe_ratio": null,
@@ -1320,10 +1320,10 @@
       "pct_over_ma50": 0.26,
       "pct_over_ma200": -4.44,
       "pct_from_high": -13.78,
-      "vol_ratio": 0.79,
+      "vol_ratio": 0.81,
       "rel_vs_ndx": -19.9,
       "beta": 0.584,
-      "pe_ratio": 30.379086,
+      "pe_ratio": 30.28013,
       "div_yield": 0.0
     },
     {
@@ -1341,11 +1341,11 @@
       "pct_over_ma50": -1.24,
       "pct_over_ma200": 4.23,
       "pct_from_high": -8.5,
-      "vol_ratio": 0.84,
+      "vol_ratio": 0.85,
       "rel_vs_ndx": -23.1,
       "beta": 0.394,
-      "pe_ratio": 24.23511,
-      "div_yield": 379.0
+      "pe_ratio": 24.273155,
+      "div_yield": 383.0
     },
     {
       "rank": 64,
@@ -1365,7 +1365,7 @@
       "vol_ratio": 1.02,
       "rel_vs_ndx": -23.61,
       "beta": 0.301,
-      "pe_ratio": 25.53892,
+      "pe_ratio": 25.508606,
       "div_yield": 0.0
     },
     {
@@ -1383,10 +1383,10 @@
       "pct_over_ma50": -0.68,
       "pct_over_ma200": 3.3,
       "pct_from_high": -2.03,
-      "vol_ratio": 0.91,
+      "vol_ratio": 1.04,
       "rel_vs_ndx": -23.13,
       "beta": 0.656,
-      "pe_ratio": 56.943184,
+      "pe_ratio": 57.105415,
       "div_yield": 38.0
     },
     {
@@ -1407,8 +1407,8 @@
       "vol_ratio": 0.82,
       "rel_vs_ndx": -19.32,
       "beta": 0.493,
-      "pe_ratio": 18.951904,
-      "div_yield": 258.0
+      "pe_ratio": 18.914,
+      "div_yield": 255.0
     },
     {
       "rank": 67,
@@ -1450,7 +1450,7 @@
       "rel_vs_ndx": -23.25,
       "beta": 0.421,
       "pe_ratio": 22.878962,
-      "div_yield": 295.0
+      "div_yield": 299.0
     },
     {
       "rank": 69,
@@ -1470,7 +1470,7 @@
       "vol_ratio": 0.94,
       "rel_vs_ndx": -23.65,
       "beta": 0.033,
-      "pe_ratio": 10.225673,
+      "pe_ratio": 10.194015,
       "div_yield": 0.0
     },
     {
@@ -1488,10 +1488,10 @@
       "pct_over_ma50": -0.64,
       "pct_over_ma200": 7.13,
       "pct_from_high": -3.44,
-      "vol_ratio": 0.85,
+      "vol_ratio": 0.86,
       "rel_vs_ndx": -23.46,
       "beta": 0.74,
-      "pe_ratio": 32.746346,
+      "pe_ratio": 32.681244,
       "div_yield": 130.0
     },
     {
@@ -1512,7 +1512,7 @@
       "vol_ratio": 1.22,
       "rel_vs_ndx": -23.24,
       "beta": 1.574,
-      "pe_ratio": 41.12408,
+      "pe_ratio": 41.154297,
       "div_yield": 0.0
     },
     {
@@ -1554,16 +1554,37 @@
       "vol_ratio": 1.11,
       "rel_vs_ndx": -22.02,
       "beta": 1.509,
-      "pe_ratio": 54.818512,
+      "pe_ratio": 54.618935,
       "div_yield": 0.0
     },
     {
       "rank": 74,
+      "ticker": "AEP",
+      "company": "American Electric Power",
+      "sector": "Electric Utilities",
+      "rsl": 0.9763,
+      "percentile": 27.7,
+      "price": 130.16,
+      "change_26t": -1.19,
+      "change_1m": -2.49,
+      "change_3m": 3.7,
+      "change_6m": 10.75,
+      "pct_over_ma50": -1.28,
+      "pct_over_ma200": 9.61,
+      "pct_from_high": -4.41,
+      "vol_ratio": 1.08,
+      "rel_vs_ndx": -22.77,
+      "beta": 0.552,
+      "pe_ratio": 19.254438,
+      "div_yield": 292.0
+    },
+    {
+      "rank": 75,
       "ticker": "PLTR",
       "company": "Palantir Technologies",
       "sector": "Computer Software",
       "rsl": 0.9762,
-      "percentile": 27.7,
+      "percentile": 26.7,
       "price": 137.8,
       "change_26t": -7.18,
       "change_1m": 4.1,
@@ -1575,16 +1596,16 @@
       "vol_ratio": 1.26,
       "rel_vs_ndx": -28.76,
       "beta": 1.521,
-      "pe_ratio": 154.83147,
+      "pe_ratio": 153.11111,
       "div_yield": 0.0
     },
     {
-      "rank": 75,
+      "rank": 76,
       "ticker": "FAST",
       "company": "Fastenal",
       "sector": "Construction & Materials",
       "rsl": 0.9752,
-      "percentile": 26.7,
+      "percentile": 25.7,
       "price": 44.17,
       "change_26t": -4.09,
       "change_1m": -3.05,
@@ -1597,15 +1618,15 @@
       "rel_vs_ndx": -25.67,
       "beta": 0.744,
       "pe_ratio": 39.088493,
-      "div_yield": 207.0
+      "div_yield": 208.0
     },
     {
-      "rank": 76,
+      "rank": 77,
       "ticker": "FANG",
       "company": "Diamondback Energy",
       "sector": "Oil & Gas Production",
       "rsl": 0.9735,
-      "percentile": 25.7,
+      "percentile": 24.8,
       "price": 188.7,
       "change_26t": -2.67,
       "change_1m": -0.21,
@@ -1617,16 +1638,16 @@
       "vol_ratio": 0.98,
       "rel_vs_ndx": -24.25,
       "beta": 0.442,
-      "pe_ratio": 194.53607,
-      "div_yield": 231.0
+      "pe_ratio": 192.55101,
+      "div_yield": 233.0
     },
     {
-      "rank": 77,
+      "rank": 78,
       "ticker": "GILD",
       "company": "Gilead Sciences",
       "sector": "Biotechnology",
       "rsl": 0.9703,
-      "percentile": 24.8,
+      "percentile": 23.8,
       "price": 131.33,
       "change_26t": -6.0,
       "change_1m": -5.54,
@@ -1635,32 +1656,11 @@
       "pct_over_ma50": -5.33,
       "pct_over_ma200": 3.98,
       "pct_from_high": -15.23,
-      "vol_ratio": 1.22,
+      "vol_ratio": 1.23,
       "rel_vs_ndx": -27.58,
       "beta": 0.332,
       "pe_ratio": 17.868029,
-      "div_yield": 245.0
-    },
-    {
-      "rank": 78,
-      "ticker": "AEP",
-      "company": "American Electric Power",
-      "sector": "Electric Utilities",
-      "rsl": 0.9695,
-      "percentile": 23.3,
-      "price": 130.16,
-      "change_26t": -1.9,
-      "change_1m": -3.2,
-      "change_3m": 2.95,
-      "change_6m": 9.95,
-      "pct_over_ma50": -1.97,
-      "pct_over_ma200": 8.82,
-      "pct_from_high": -5.1,
-      "vol_ratio": 1.07,
-      "rel_vs_ndx": -23.48,
-      "beta": 0.552,
-      "pe_ratio": 19.254438,
-      "div_yield": 288.0
+      "div_yield": 250.0
     },
     {
       "rank": 79,
@@ -1668,7 +1668,7 @@
       "company": "Verisk Analytics",
       "sector": "Diversified Commercial Services",
       "rsl": 0.9695,
-      "percentile": 23.3,
+      "percentile": 22.8,
       "price": 171.87,
       "change_26t": -7.14,
       "change_1m": 2.38,
@@ -1680,8 +1680,8 @@
       "vol_ratio": 0.95,
       "rel_vs_ndx": -28.72,
       "beta": 0.726,
-      "pe_ratio": 26.239693,
-      "div_yield": 114.0
+      "pe_ratio": 26.159817,
+      "div_yield": 116.0
     },
     {
       "rank": 80,
@@ -1698,11 +1698,11 @@
       "pct_over_ma50": -5.93,
       "pct_over_ma200": 2.72,
       "pct_from_high": -14.55,
-      "vol_ratio": 1.11,
+      "vol_ratio": 1.15,
       "rel_vs_ndx": -26.25,
       "beta": 0.435,
-      "pe_ratio": 23.06676,
-      "div_yield": 306.0
+      "pe_ratio": 23.098886,
+      "div_yield": 304.0
     },
     {
       "rank": 81,
@@ -1719,10 +1719,10 @@
       "pct_over_ma50": -4.53,
       "pct_over_ma200": 4.12,
       "pct_from_high": -11.88,
-      "vol_ratio": 0.97,
+      "vol_ratio": 0.98,
       "rel_vs_ndx": -27.74,
       "beta": 0.296,
-      "pe_ratio": 17.440596,
+      "pe_ratio": 17.45337,
       "div_yield": 53.0
     },
     {
@@ -1761,11 +1761,11 @@
       "pct_over_ma50": -3.13,
       "pct_over_ma200": -20.75,
       "pct_from_high": -40.64,
-      "vol_ratio": 0.86,
+      "vol_ratio": 0.87,
       "rel_vs_ndx": -25.4,
       "beta": 0.803,
       "pe_ratio": 21.4575,
-      "div_yield": 103.0
+      "div_yield": 106.0
     },
     {
       "rank": 84,
@@ -1786,7 +1786,7 @@
       "rel_vs_ndx": -25.81,
       "beta": 0.962,
       "pe_ratio": 35.22574,
-      "div_yield": 106.0
+      "div_yield": 108.0
     },
     {
       "rank": 85,
@@ -1803,11 +1803,11 @@
       "pct_over_ma50": -6.17,
       "pct_over_ma200": 1.54,
       "pct_from_high": -14.08,
-      "vol_ratio": 0.87,
+      "vol_ratio": 0.88,
       "rel_vs_ndx": -28.7,
       "beta": 0.811,
       "pe_ratio": 33.99043,
-      "div_yield": 220.0
+      "div_yield": 223.0
     },
     {
       "rank": 86,
@@ -1827,7 +1827,7 @@
       "vol_ratio": 0.98,
       "rel_vs_ndx": -15.46,
       "beta": 1.243,
-      "pe_ratio": 22.160305,
+      "pe_ratio": 22.176428,
       "div_yield": 34.0
     },
     {
@@ -1845,11 +1845,11 @@
       "pct_over_ma50": -1.43,
       "pct_over_ma200": 19.22,
       "pct_from_high": -11.63,
-      "vol_ratio": 0.93,
+      "vol_ratio": 0.94,
       "rel_vs_ndx": -21.41,
       "beta": 1.172,
-      "pe_ratio": 41.40501,
-      "div_yield": 59.0
+      "pe_ratio": 41.31875,
+      "div_yield": 58.0
     },
     {
       "rank": 88,
@@ -1869,7 +1869,7 @@
       "vol_ratio": 0.96,
       "rel_vs_ndx": -29.04,
       "beta": 0.302,
-      "pe_ratio": 73.947365,
+      "pe_ratio": 74.13316,
       "div_yield": 0.0
     },
     {
@@ -1890,8 +1890,8 @@
       "vol_ratio": 0.93,
       "rel_vs_ndx": -22.68,
       "beta": 1.102,
-      "pe_ratio": 21.861658,
-      "div_yield": 94.0
+      "pe_ratio": 21.898945,
+      "div_yield": 97.0
     },
     {
       "rank": 90,
@@ -1912,7 +1912,7 @@
       "rel_vs_ndx": -24.97,
       "beta": 1.03,
       "pe_ratio": 24.321278,
-      "div_yield": 123.0
+      "div_yield": 122.0
     },
     {
       "rank": 91,
@@ -1929,11 +1929,11 @@
       "pct_over_ma50": -3.28,
       "pct_over_ma200": -22.27,
       "pct_from_high": -41.69,
-      "vol_ratio": 1.25,
+      "vol_ratio": 1.26,
       "rel_vs_ndx": -21.51,
       "beta": 1.395,
       "pe_ratio": 8.512195,
-      "div_yield": 121.0
+      "div_yield": 123.0
     },
     {
       "rank": 92,
@@ -1954,7 +1954,7 @@
       "rel_vs_ndx": -32.57,
       "beta": 0.416,
       "pe_ratio": 16.08425,
-      "div_yield": 378.0
+      "div_yield": 383.0
     },
     {
       "rank": 93,
@@ -1975,7 +1975,7 @@
       "rel_vs_ndx": -31.36,
       "beta": 0.868,
       "pe_ratio": 15.220624,
-      "div_yield": 23.0
+      "div_yield": 22.0
     },
     {
       "rank": 94,
@@ -1995,7 +1995,7 @@
       "vol_ratio": 2.35,
       "rel_vs_ndx": -28.21,
       "beta": 2.644,
-      "pe_ratio": 108.2451,
+      "pe_ratio": 108.338234,
       "div_yield": 0.0
     },
     {
@@ -2013,10 +2013,10 @@
       "pct_over_ma50": -8.43,
       "pct_over_ma200": -15.34,
       "pct_from_high": -34.67,
-      "vol_ratio": 0.81,
+      "vol_ratio": 0.83,
       "rel_vs_ndx": -32.9,
       "beta": 1.548,
-      "pe_ratio": 28.22258,
+      "pe_ratio": 28.218388,
       "div_yield": 0.0
     },
     {
@@ -2034,11 +2034,11 @@
       "pct_over_ma50": -11.59,
       "pct_over_ma200": -10.22,
       "pct_from_high": -22.13,
-      "vol_ratio": 0.95,
+      "vol_ratio": 0.96,
       "rel_vs_ndx": -30.64,
       "beta": 0.689,
-      "pe_ratio": 4.980392,
-      "div_yield": 503.0
+      "pe_ratio": 4.979412,
+      "div_yield": 520.0
     },
     {
       "rank": 97,
@@ -2059,7 +2059,7 @@
       "rel_vs_ndx": -38.94,
       "beta": 0.803,
       "pe_ratio": 11.210412,
-      "div_yield": 254.0
+      "div_yield": 255.0
     },
     {
       "rank": 98,
@@ -2079,7 +2079,7 @@
       "vol_ratio": 1.69,
       "rel_vs_ndx": -26.42,
       "beta": 1.406,
-      "pe_ratio": 41.371517,
+      "pe_ratio": 43.108532,
       "div_yield": 0.0
     },
     {
@@ -2097,7 +2097,7 @@
       "pct_over_ma50": -18.85,
       "pct_over_ma200": -49.66,
       "pct_from_high": -66.16,
-      "vol_ratio": 1.03,
+      "vol_ratio": 1.04,
       "rel_vs_ndx": -39.55,
       "beta": 0.746,
       "pe_ratio": 468.14285,
@@ -2118,7 +2118,7 @@
       "pct_over_ma50": -26.68,
       "pct_over_ma200": -32.73,
       "pct_from_high": -63.75,
-      "vol_ratio": 1.14,
+      "vol_ratio": 1.15,
       "rel_vs_ndx": -51.12,
       "beta": 0.757,
       "pe_ratio": 4.188802,
@@ -2141,7 +2141,7 @@
       "pct_from_high": -52.06,
       "vol_ratio": 2.21,
       "rel_vs_ndx": -59.18,
-      "beta": null,
+      "beta": 0.894,
       "pe_ratio": null,
       "div_yield": 0.0
     }
@@ -2298,6 +2298,16 @@
       "best_ticker": "CPRT"
     },
     {
+      "sector": "Department/Specialty Retail Stores",
+      "avg_rsl": 1.0121,
+      "median_rsl": 1.0121,
+      "count": 2,
+      "avg_change_26t": 1.72,
+      "in_top25": 0,
+      "top25_pct": 0.0,
+      "best_ticker": "WMT"
+    },
+    {
       "sector": "Military, Government, Technical",
       "avg_rsl": 1.0112,
       "median_rsl": 1.0112,
@@ -2306,16 +2316,6 @@
       "in_top25": 0,
       "top25_pct": 0.0,
       "best_ticker": "FER"
-    },
-    {
-      "sector": "Department/Specialty Retail Stores",
-      "avg_rsl": 1.0112,
-      "median_rsl": 1.0112,
-      "count": 2,
-      "avg_change_26t": 1.61,
-      "in_top25": 0,
-      "top25_pct": 0.0,
-      "best_ticker": "WMT"
     },
     {
       "sector": "Miscellaneous Amusement & Recreation Services",
@@ -2368,6 +2368,16 @@
       "best_ticker": "BKR"
     },
     {
+      "sector": "Electric Utilities",
+      "avg_rsl": 0.999,
+      "median_rsl": 0.999,
+      "count": 2,
+      "avg_change_26t": 5.05,
+      "in_top25": 0,
+      "top25_pct": 0.0,
+      "best_ticker": "CEG"
+    },
+    {
       "sector": "Telecommunications Service Providers",
       "avg_rsl": 0.9961,
       "median_rsl": 0.9961,
@@ -2376,16 +2386,6 @@
       "in_top25": 0,
       "top25_pct": 0.0,
       "best_ticker": "TMUS"
-    },
-    {
-      "sector": "Electric Utilities",
-      "avg_rsl": 0.9956,
-      "median_rsl": 0.9956,
-      "count": 2,
-      "avg_change_26t": 4.7,
-      "in_top25": 0,
-      "top25_pct": 0.0,
-      "best_ticker": "CEG"
     },
     {
       "sector": "Catalog/Specialty Distribution",
