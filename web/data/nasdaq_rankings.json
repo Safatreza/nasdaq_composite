@@ -1,14 +1,14 @@
 {
   "metadata": {
-    "updated": "2026-05-14T22:57:04",
-    "updated_display": "14.05.2026 22:57",
+    "updated": "2026-05-15T11:57:23",
+    "updated_display": "15.05.2026 11:57",
     "total_analyzed": 101,
     "failed": 0,
     "rsl_period_days": 26,
     "index": "Nasdaq-100"
   },
   "stats": {
-    "avg_rsl": 1.0348,
+    "avg_rsl": 1.0349,
     "median_rsl": 0.9961,
     "max_rsl": 1.4022,
     "max_ticker": "DDOG",
@@ -17,10 +17,10 @@
     "bullish_count": 49,
     "bearish_count": 52,
     "returns_avg": {
-      "26t": 11.46,
-      "1m": 5.82,
-      "3m": 12.73,
-      "6m": 21.52
+      "26t": 11.47,
+      "1m": 5.83,
+      "3m": 12.74,
+      "6m": 21.53
     }
   },
   "rankings": [
@@ -63,8 +63,8 @@
       "vol_ratio": 1.3,
       "rel_vs_ndx": 66.17,
       "beta": 1.919,
-      "pe_ratio": 36.569748,
-      "div_yield": 7.0
+      "pe_ratio": 36.62152,
+      "div_yield": 8.0
     },
     {
       "rank": 3,
@@ -105,7 +105,7 @@
       "vol_ratio": 1.02,
       "rel_vs_ndx": 72.11,
       "beta": 2.399,
-      "pe_ratio": 150.90604,
+      "pe_ratio": 149.402,
       "div_yield": 0.0
     },
     {
@@ -123,7 +123,7 @@
       "pct_over_ma50": 69.89,
       "pct_over_ma200": 161.4,
       "pct_from_high": -10.44,
-      "vol_ratio": 1.33,
+      "vol_ratio": 1.34,
       "rel_vs_ndx": 69.9,
       "beta": 2.19,
       "pe_ratio": null,
@@ -144,10 +144,10 @@
       "pct_over_ma50": 36.9,
       "pct_over_ma200": 28.53,
       "pct_from_high": 0.0,
-      "vol_ratio": 1.26,
+      "vol_ratio": 1.27,
       "rel_vs_ndx": 24.72,
       "beta": 0.77,
-      "pe_ratio": 132.3389,
+      "pe_ratio": 131.60774,
       "div_yield": 0.0
     },
     {
@@ -165,11 +165,11 @@
       "pct_over_ma50": 35.95,
       "pct_over_ma200": 52.49,
       "pct_from_high": 0.0,
-      "vol_ratio": 1.77,
+      "vol_ratio": 1.78,
       "rel_vs_ndx": 20.98,
       "beta": 0.912,
-      "pe_ratio": 41.557552,
-      "div_yield": 165.0
+      "pe_ratio": 38.51,
+      "div_yield": 145.0
     },
     {
       "rank": 8,
@@ -186,7 +186,7 @@
       "pct_over_ma50": 32.05,
       "pct_over_ma200": 26.13,
       "pct_from_high": 0.0,
-      "vol_ratio": 0.93,
+      "vol_ratio": 0.94,
       "rel_vs_ndx": 29.01,
       "beta": 1.06,
       "pe_ratio": null,
@@ -211,7 +211,7 @@
       "rel_vs_ndx": 42.77,
       "beta": 2.009,
       "pe_ratio": 76.35294,
-      "div_yield": 36.0
+      "div_yield": 37.0
     },
     {
       "rank": 10,
@@ -228,10 +228,10 @@
       "pct_over_ma50": 52.65,
       "pct_over_ma200": 233.09,
       "pct_from_high": -11.5,
-      "vol_ratio": 0.89,
+      "vol_ratio": 0.9,
       "rel_vs_ndx": 44.44,
       "beta": null,
-      "pe_ratio": 47.304825,
+      "pe_ratio": 47.17571,
       "div_yield": 0.0
     },
     {
@@ -249,11 +249,11 @@
       "pct_over_ma50": 35.47,
       "pct_over_ma200": 27.03,
       "pct_from_high": -15.77,
-      "vol_ratio": 1.85,
+      "vol_ratio": 1.86,
       "rel_vs_ndx": 38.69,
       "beta": 1.493,
-      "pe_ratio": 21.537136,
-      "div_yield": 173.0
+      "pe_ratio": 21.513979,
+      "div_yield": 184.0
     },
     {
       "rank": 12,
@@ -273,8 +273,8 @@
       "vol_ratio": 1.05,
       "rel_vs_ndx": 26.15,
       "beta": 1.298,
-      "pe_ratio": 52.678635,
-      "div_yield": 185.0
+      "pe_ratio": 52.588737,
+      "div_yield": 184.0
     },
     {
       "rank": 13,
@@ -294,7 +294,7 @@
       "vol_ratio": 0.96,
       "rel_vs_ndx": 34.39,
       "beta": 2.251,
-      "pe_ratio": 59.279224,
+      "pe_ratio": 59.472313,
       "div_yield": 13.0
     },
     {
@@ -312,10 +312,10 @@
       "pct_over_ma50": 38.14,
       "pct_over_ma200": 133.55,
       "pct_from_high": -5.17,
-      "vol_ratio": 0.89,
+      "vol_ratio": 0.9,
       "rel_vs_ndx": 26.84,
       "beta": 2.158,
-      "pe_ratio": 29.290417,
+      "pe_ratio": 29.237896,
       "div_yield": 12.0
     },
     {
@@ -333,10 +333,10 @@
       "pct_over_ma50": 37.62,
       "pct_over_ma200": 58.9,
       "pct_from_high": -3.71,
-      "vol_ratio": 1.06,
+      "vol_ratio": 1.07,
       "rel_vs_ndx": 34.61,
       "beta": 3.406,
-      "pe_ratio": 272.0238,
+      "pe_ratio": 268.82352,
       "div_yield": 0.0
     },
     {
@@ -358,7 +358,7 @@
       "rel_vs_ndx": 25.1,
       "beta": 1.776,
       "pe_ratio": 28.096466,
-      "div_yield": 136.0
+      "div_yield": 138.0
     },
     {
       "rank": 17,
@@ -399,7 +399,7 @@
       "vol_ratio": 1.0,
       "rel_vs_ndx": 10.33,
       "beta": 1.793,
-      "pe_ratio": 414.29904,
+      "pe_ratio": 399.36935,
       "div_yield": 0.0
     },
     {
@@ -459,7 +459,7 @@
       "pct_over_ma50": 23.5,
       "pct_over_ma200": -14.66,
       "pct_from_high": -58.99,
-      "vol_ratio": 0.8,
+      "vol_ratio": 0.81,
       "rel_vs_ndx": 27.17,
       "beta": 3.595,
       "pe_ratio": null,
@@ -483,7 +483,7 @@
       "vol_ratio": 0.91,
       "rel_vs_ndx": 8.0,
       "beta": 1.267,
-      "pe_ratio": 30.546078,
+      "pe_ratio": 30.592678,
       "div_yield": 22.0
     },
     {
@@ -504,7 +504,7 @@
       "vol_ratio": 0.84,
       "rel_vs_ndx": 7.61,
       "beta": 1.267,
-      "pe_ratio": 30.249048,
+      "pe_ratio": 30.295197,
       "div_yield": 22.0
     },
     {
@@ -522,7 +522,7 @@
       "pct_over_ma50": 26.49,
       "pct_over_ma200": 41.42,
       "pct_from_high": -5.71,
-      "vol_ratio": 1.41,
+      "vol_ratio": 1.42,
       "rel_vs_ndx": 18.32,
       "beta": 1.737,
       "pe_ratio": 441.0909,
@@ -543,7 +543,7 @@
       "pct_over_ma50": 21.37,
       "pct_over_ma200": 63.94,
       "pct_from_high": 0.0,
-      "vol_ratio": 0.84,
+      "vol_ratio": 0.85,
       "rel_vs_ndx": -2.32,
       "beta": 1.819,
       "pe_ratio": 56.550095,
@@ -564,7 +564,7 @@
       "pct_over_ma50": 12.33,
       "pct_over_ma200": 17.71,
       "pct_from_high": -0.97,
-      "vol_ratio": 1.49,
+      "vol_ratio": 1.5,
       "rel_vs_ndx": -5.29,
       "beta": 0.501,
       "pe_ratio": 41.45894,
@@ -588,8 +588,8 @@
       "vol_ratio": 1.06,
       "rel_vs_ndx": 3.54,
       "beta": 1.194,
-      "pe_ratio": 77.73953,
-      "div_yield": 94.0
+      "pe_ratio": 78.166664,
+      "div_yield": 95.0
     },
     {
       "rank": 28,
@@ -606,11 +606,11 @@
       "pct_over_ma50": 16.24,
       "pct_over_ma200": 57.58,
       "pct_from_high": -0.69,
-      "vol_ratio": 1.45,
+      "vol_ratio": 1.47,
       "rel_vs_ndx": -7.18,
       "beta": 1.654,
       "pe_ratio": 45.232033,
-      "div_yield": 49.0
+      "div_yield": 48.0
     },
     {
       "rank": 29,
@@ -627,10 +627,10 @@
       "pct_over_ma50": 12.46,
       "pct_over_ma200": 15.5,
       "pct_from_high": -0.22,
-      "vol_ratio": 1.03,
+      "vol_ratio": 1.04,
       "rel_vs_ndx": -3.34,
       "beta": 1.065,
-      "pe_ratio": 36.146667,
+      "pe_ratio": 36.102905,
       "div_yield": 36.0
     },
     {
@@ -651,8 +651,8 @@
       "vol_ratio": 0.78,
       "rel_vs_ndx": 5.99,
       "beta": 1.44,
-      "pe_ratio": 85.72904,
-      "div_yield": 62.0
+      "pe_ratio": 85.39612,
+      "div_yield": 59.0
     },
     {
       "rank": 31,
@@ -669,10 +669,10 @@
       "pct_over_ma50": 14.35,
       "pct_over_ma200": 7.33,
       "pct_from_high": -20.97,
-      "vol_ratio": 0.77,
+      "vol_ratio": 0.78,
       "rel_vs_ndx": 8.03,
       "beta": 1.245,
-      "pe_ratio": 78.22392,
+      "pe_ratio": 78.10413,
       "div_yield": 0.0
     },
     {
@@ -693,8 +693,8 @@
       "vol_ratio": 1.07,
       "rel_vs_ndx": -8.31,
       "beta": 1.373,
-      "pe_ratio": 51.917103,
-      "div_yield": 56.0
+      "pe_ratio": 52.087772,
+      "div_yield": 55.0
     },
     {
       "rank": 33,
@@ -714,7 +714,7 @@
       "vol_ratio": 0.91,
       "rel_vs_ndx": 7.63,
       "beta": 1.131,
-      "pe_ratio": 82.247086,
+      "pe_ratio": 82.05581,
       "div_yield": 0.0
     },
     {
@@ -735,7 +735,7 @@
       "vol_ratio": 1.22,
       "rel_vs_ndx": 10.03,
       "beta": 2.366,
-      "pe_ratio": 42.114582,
+      "pe_ratio": 42.187828,
       "div_yield": 0.0
     },
     {
@@ -756,8 +756,8 @@
       "vol_ratio": 1.0,
       "rel_vs_ndx": 3.04,
       "beta": 1.742,
-      "pe_ratio": 115.03706,
-      "div_yield": 48.0
+      "pe_ratio": 114.955124,
+      "div_yield": 50.0
     },
     {
       "rank": 36,
@@ -777,8 +777,8 @@
       "vol_ratio": 1.06,
       "rel_vs_ndx": -8.34,
       "beta": 1.501,
-      "pe_ratio": 53.578823,
-      "div_yield": 50.0
+      "pe_ratio": 53.472878,
+      "div_yield": 49.0
     },
     {
       "rank": 37,
@@ -799,7 +799,7 @@
       "rel_vs_ndx": -8.15,
       "beta": 1.009,
       "pe_ratio": 81.22138,
-      "div_yield": 234.0
+      "div_yield": 233.0
     },
     {
       "rank": 38,
@@ -820,7 +820,7 @@
       "rel_vs_ndx": -7.79,
       "beta": 0.416,
       "pe_ratio": 21.555555,
-      "div_yield": 314.0
+      "div_yield": 316.0
     },
     {
       "rank": 39,
@@ -837,11 +837,11 @@
       "pct_over_ma50": 8.69,
       "pct_over_ma200": 22.32,
       "pct_from_high": -0.56,
-      "vol_ratio": 1.08,
+      "vol_ratio": 1.09,
       "rel_vs_ndx": -9.86,
       "beta": 1.238,
       "pe_ratio": 28.171778,
-      "div_yield": 126.0
+      "div_yield": 122.0
     },
     {
       "rank": 40,
@@ -858,11 +858,11 @@
       "pct_over_ma50": 4.23,
       "pct_over_ma200": 9.45,
       "pct_from_high": -0.92,
-      "vol_ratio": 1.01,
+      "vol_ratio": 1.04,
       "rel_vs_ndx": -16.89,
       "beta": 0.908,
-      "pe_ratio": 54.17534,
-      "div_yield": 57.0
+      "pe_ratio": 54.062824,
+      "div_yield": 56.0
     },
     {
       "rank": 41,
@@ -879,7 +879,7 @@
       "pct_over_ma50": 1.19,
       "pct_over_ma200": 3.59,
       "pct_from_high": -11.6,
-      "vol_ratio": 0.9,
+      "vol_ratio": 0.91,
       "rel_vs_ndx": -17.12,
       "beta": 0.301,
       "pe_ratio": 26.730564,
@@ -887,11 +887,32 @@
     },
     {
       "rank": 42,
+      "ticker": "FANG",
+      "company": "Diamondback Energy",
+      "sector": "Oil & Gas Production",
+      "rsl": 1.0334,
+      "percentile": 59.4,
+      "price": 200.26,
+      "change_26t": 8.08,
+      "change_1m": 11.7,
+      "change_3m": 15.94,
+      "change_6m": 44.89,
+      "pct_over_ma50": 4.75,
+      "pct_over_ma200": 26.35,
+      "pct_from_high": -5.77,
+      "vol_ratio": 0.6,
+      "rel_vs_ndx": -9.85,
+      "beta": 0.442,
+      "pe_ratio": 204.34692,
+      "div_yield": 220.0
+    },
+    {
+      "rank": 43,
       "ticker": "AMZN",
       "company": "Amazon",
       "sector": "Catalog/Specialty Distribution",
       "rsl": 1.0314,
-      "percentile": 59.4,
+      "percentile": 58.4,
       "price": 267.22,
       "change_26t": 14.37,
       "change_1m": 6.65,
@@ -903,16 +924,16 @@
       "vol_ratio": 0.79,
       "rel_vs_ndx": -3.56,
       "beta": 1.468,
-      "pe_ratio": 32.002396,
+      "pe_ratio": 31.964117,
       "div_yield": 0.0
     },
     {
-      "rank": 43,
+      "rank": 44,
       "ticker": "KHC",
       "company": "Kraft Heinz",
       "sector": "Packaged Foods",
       "rsl": 1.0296,
-      "percentile": 58.4,
+      "percentile": 57.4,
       "price": 23.31,
       "change_26t": 0.17,
       "change_1m": 3.74,
@@ -925,15 +946,15 @@
       "rel_vs_ndx": -17.76,
       "beta": 0.046,
       "pe_ratio": null,
-      "div_yield": 690.0
+      "div_yield": 686.0
     },
     {
-      "rank": 44,
+      "rank": 45,
       "ticker": "WMT",
       "company": "Walmart",
       "sector": "Department/Specialty Retail Stores",
       "rsl": 1.0289,
-      "percentile": 57.4,
+      "percentile": 56.4,
       "price": 132.46,
       "change_26t": 2.77,
       "change_1m": 4.09,
@@ -949,33 +970,12 @@
       "div_yield": 75.0
     },
     {
-      "rank": 45,
-      "ticker": "FANG",
-      "company": "Diamondback Energy",
-      "sector": "Oil & Gas Production",
-      "rsl": 1.0279,
-      "percentile": 55.9,
-      "price": 200.26,
-      "change_26t": 7.49,
-      "change_1m": 11.09,
-      "change_3m": 15.3,
-      "change_6m": 44.1,
-      "pct_over_ma50": 4.19,
-      "pct_over_ma200": 25.66,
-      "pct_from_high": -6.28,
-      "vol_ratio": 0.6,
-      "rel_vs_ndx": -10.44,
-      "beta": 0.442,
-      "pe_ratio": 202.28282,
-      "div_yield": 219.0
-    },
-    {
       "rank": 46,
       "ticker": "MDLZ",
       "company": "Mondelez International",
       "sector": "Packaged Foods",
       "rsl": 1.0279,
-      "percentile": 55.9,
+      "percentile": 55.4,
       "price": 60.97,
       "change_26t": 3.18,
       "change_1m": 6.5,
@@ -988,7 +988,7 @@
       "rel_vs_ndx": -14.75,
       "beta": 0.404,
       "pe_ratio": 30.183168,
-      "div_yield": 325.0
+      "div_yield": 328.0
     },
     {
       "rank": 47,
@@ -1005,10 +1005,10 @@
       "pct_over_ma50": 1.05,
       "pct_over_ma200": -16.57,
       "pct_from_high": -34.64,
-      "vol_ratio": 0.86,
+      "vol_ratio": 0.87,
       "rel_vs_ndx": -11.63,
       "beta": 0.841,
-      "pe_ratio": 19.4375,
+      "pe_ratio": 19.455648,
       "div_yield": 326.0
     },
     {
@@ -1026,7 +1026,7 @@
       "pct_over_ma50": 3.0,
       "pct_over_ma200": 10.94,
       "pct_from_high": -0.31,
-      "vol_ratio": 0.8,
+      "vol_ratio": 0.81,
       "rel_vs_ndx": -16.27,
       "beta": 0.74,
       "pe_ratio": 33.90656,
@@ -1047,11 +1047,11 @@
       "pct_over_ma50": 3.77,
       "pct_over_ma200": 23.37,
       "pct_from_high": -6.95,
-      "vol_ratio": 0.7,
+      "vol_ratio": 0.71,
       "rel_vs_ndx": -15.71,
       "beta": 0.97,
       "pe_ratio": 20.642172,
-      "div_yield": 141.0
+      "div_yield": 142.0
     },
     {
       "rank": 50,
@@ -1068,7 +1068,7 @@
       "pct_over_ma50": -0.73,
       "pct_over_ma200": 16.05,
       "pct_from_high": -9.54,
-      "vol_ratio": 0.75,
+      "vol_ratio": 0.77,
       "rel_vs_ndx": -19.42,
       "beta": 1.574,
       "pe_ratio": null,
@@ -1089,11 +1089,11 @@
       "pct_over_ma50": -0.15,
       "pct_over_ma200": 4.0,
       "pct_from_high": -3.92,
-      "vol_ratio": 1.27,
+      "vol_ratio": 1.28,
       "rel_vs_ndx": -21.24,
       "beta": 0.421,
       "pe_ratio": 23.0634,
-      "div_yield": 297.0
+      "div_yield": 296.0
     },
     {
       "rank": 52,
@@ -1110,11 +1110,11 @@
       "pct_over_ma50": 2.66,
       "pct_over_ma200": -11.45,
       "pct_from_high": -24.16,
-      "vol_ratio": 0.98,
+      "vol_ratio": 0.99,
       "rel_vs_ndx": -8.18,
       "beta": 1.093,
-      "pe_ratio": 24.39988,
-      "div_yield": 90.0
+      "pe_ratio": 24.385347,
+      "div_yield": 89.0
     },
     {
       "rank": 53,
@@ -1134,7 +1134,7 @@
       "vol_ratio": 1.04,
       "rel_vs_ndx": -18.63,
       "beta": 0.656,
-      "pe_ratio": 57.365715,
+      "pe_ratio": 57.20228,
       "div_yield": 38.0
     },
     {
@@ -1155,7 +1155,7 @@
       "vol_ratio": 1.21,
       "rel_vs_ndx": -7.44,
       "beta": 1.435,
-      "pe_ratio": 155.8996,
+      "pe_ratio": 156.52823,
       "div_yield": 0.0
     },
     {
@@ -1176,8 +1176,8 @@
       "vol_ratio": 0.97,
       "rel_vs_ndx": -25.7,
       "beta": 0.811,
-      "pe_ratio": 34.779552,
-      "div_yield": 218.0
+      "pe_ratio": 34.724083,
+      "div_yield": 219.0
     },
     {
       "rank": 56,
@@ -1197,7 +1197,7 @@
       "vol_ratio": 0.89,
       "rel_vs_ndx": -23.38,
       "beta": 0.435,
-      "pe_ratio": 23.398052,
+      "pe_ratio": 23.414347,
       "div_yield": 300.0
     },
     {
@@ -1215,11 +1215,11 @@
       "pct_over_ma50": -4.0,
       "pct_over_ma200": 4.21,
       "pct_from_high": -14.76,
-      "vol_ratio": 1.08,
+      "vol_ratio": 1.11,
       "rel_vs_ndx": -24.99,
       "beta": 0.332,
-      "pe_ratio": 17.991825,
-      "div_yield": 247.0
+      "pe_ratio": 17.942934,
+      "div_yield": 248.0
     },
     {
       "rank": 58,
@@ -1236,11 +1236,11 @@
       "pct_over_ma50": -2.56,
       "pct_over_ma200": -18.56,
       "pct_from_high": -42.12,
-      "vol_ratio": 0.9,
+      "vol_ratio": 0.91,
       "rel_vs_ndx": -15.53,
       "beta": null,
       "pe_ratio": 19.60927,
-      "div_yield": 529.0
+      "div_yield": 536.0
     },
     {
       "rank": 59,
@@ -1260,7 +1260,7 @@
       "vol_ratio": 0.9,
       "rel_vs_ndx": -14.05,
       "beta": 1.322,
-      "pe_ratio": 44.80077,
+      "pe_ratio": 44.629772,
       "div_yield": 0.0
     },
     {
@@ -1278,10 +1278,10 @@
       "pct_over_ma50": 2.8,
       "pct_over_ma200": 16.09,
       "pct_from_high": -6.67,
-      "vol_ratio": 0.9,
+      "vol_ratio": 0.91,
       "rel_vs_ndx": -17.78,
       "beta": 1.107,
-      "pe_ratio": 36.973846,
+      "pe_ratio": 37.05136,
       "div_yield": 83.0
     },
     {
@@ -1303,7 +1303,7 @@
       "rel_vs_ndx": -27.88,
       "beta": 0.744,
       "pe_ratio": 38.920353,
-      "div_yield": 210.0
+      "div_yield": 209.0
     },
     {
       "rank": 62,
@@ -1341,11 +1341,11 @@
       "pct_over_ma50": -6.58,
       "pct_over_ma200": -11.76,
       "pct_from_high": -28.23,
-      "vol_ratio": 0.72,
+      "vol_ratio": 0.76,
       "rel_vs_ndx": -22.66,
       "beta": 0.32,
-      "pe_ratio": 19.977707,
-      "div_yield": 214.0
+      "pe_ratio": 19.998938,
+      "div_yield": 217.0
     },
     {
       "rank": 64,
@@ -1383,11 +1383,11 @@
       "pct_over_ma50": -4.14,
       "pct_over_ma200": 3.35,
       "pct_from_high": -12.13,
-      "vol_ratio": 1.23,
+      "vol_ratio": 1.24,
       "rel_vs_ndx": -25.09,
       "beta": 0.296,
-      "pe_ratio": 17.404053,
-      "div_yield": 52.0
+      "pe_ratio": 17.391314,
+      "div_yield": 53.0
     },
     {
       "rank": 66,
@@ -1407,8 +1407,8 @@
       "vol_ratio": 0.79,
       "rel_vs_ndx": -13.34,
       "beta": 1.035,
-      "pe_ratio": 24.6443,
-      "div_yield": 125.0
+      "pe_ratio": 24.628256,
+      "div_yield": 123.0
     },
     {
       "rank": 67,
@@ -1471,7 +1471,7 @@
       "rel_vs_ndx": -23.48,
       "beta": 0.552,
       "pe_ratio": 19.023668,
-      "div_yield": 297.0
+      "div_yield": 295.0
     },
     {
       "rank": 70,
@@ -1491,7 +1491,7 @@
       "vol_ratio": 1.29,
       "rel_vs_ndx": -14.44,
       "beta": 1.208,
-      "pe_ratio": 32.923645,
+      "pe_ratio": 33.004936,
       "div_yield": 0.0
     },
     {
@@ -1512,7 +1512,7 @@
       "vol_ratio": 0.81,
       "rel_vs_ndx": -19.52,
       "beta": 1.243,
-      "pe_ratio": 22.488363,
+      "pe_ratio": 22.47202,
       "div_yield": 34.0
     },
     {
@@ -1530,11 +1530,11 @@
       "pct_over_ma50": -6.56,
       "pct_over_ma200": -13.3,
       "pct_from_high": -26.61,
-      "vol_ratio": 0.77,
+      "vol_ratio": 0.78,
       "rel_vs_ndx": -22.64,
       "beta": 0.962,
-      "pe_ratio": 35.01055,
-      "div_yield": 110.0
+      "pe_ratio": 34.93684,
+      "div_yield": 108.0
     },
     {
       "rank": 73,
@@ -1551,7 +1551,7 @@
       "pct_over_ma50": -2.98,
       "pct_over_ma200": -7.67,
       "pct_from_high": -16.82,
-      "vol_ratio": 1.27,
+      "vol_ratio": 1.3,
       "rel_vs_ndx": -22.93,
       "beta": 0.584,
       "pe_ratio": 29.211727,
@@ -1575,7 +1575,7 @@
       "vol_ratio": 0.91,
       "rel_vs_ndx": -15.45,
       "beta": 1.521,
-      "pe_ratio": 151.96591,
+      "pe_ratio": 148.58888,
       "div_yield": 0.0
     },
     {
@@ -1593,11 +1593,11 @@
       "pct_over_ma50": -4.29,
       "pct_over_ma200": 0.07,
       "pct_from_high": -12.02,
-      "vol_ratio": 0.98,
+      "vol_ratio": 1.0,
       "rel_vs_ndx": -23.53,
       "beta": 0.394,
-      "pe_ratio": 23.33909,
-      "div_yield": 397.0
+      "pe_ratio": 23.375786,
+      "div_yield": 398.0
     },
     {
       "rank": 76,
@@ -1617,7 +1617,7 @@
       "vol_ratio": 1.08,
       "rel_vs_ndx": -22.89,
       "beta": 0.033,
-      "pe_ratio": 9.84346,
+      "pe_ratio": 9.833333,
       "div_yield": 0.0
     },
     {
@@ -1639,7 +1639,7 @@
       "rel_vs_ndx": -28.12,
       "beta": 0.416,
       "pe_ratio": 16.263737,
-      "div_yield": 379.0
+      "div_yield": 378.0
     },
     {
       "rank": 78,
@@ -1660,7 +1660,7 @@
       "rel_vs_ndx": -23.03,
       "beta": 1.172,
       "pe_ratio": 41.50522,
-      "div_yield": 61.0
+      "div_yield": 58.0
     },
     {
       "rank": 79,
@@ -1677,7 +1677,7 @@
       "pct_over_ma50": -6.4,
       "pct_over_ma200": -25.05,
       "pct_from_high": -40.26,
-      "vol_ratio": 0.86,
+      "vol_ratio": 0.87,
       "rel_vs_ndx": -26.59,
       "beta": 0.302,
       "pe_ratio": 73.54637,
@@ -1698,11 +1698,11 @@
       "pct_over_ma50": -2.56,
       "pct_over_ma200": 18.04,
       "pct_from_high": -6.83,
-      "vol_ratio": 1.44,
+      "vol_ratio": 1.47,
       "rel_vs_ndx": -23.11,
       "beta": 0.875,
       "pe_ratio": 32.26475,
-      "div_yield": 84.0
+      "div_yield": 83.0
     },
     {
       "rank": 81,
@@ -1719,11 +1719,11 @@
       "pct_over_ma50": -5.07,
       "pct_over_ma200": -1.73,
       "pct_from_high": -17.75,
-      "vol_ratio": 0.97,
+      "vol_ratio": 0.98,
       "rel_vs_ndx": -25.16,
       "beta": 0.493,
-      "pe_ratio": 18.093626,
-      "div_yield": 264.0
+      "pe_ratio": 18.166,
+      "div_yield": 266.0
     },
     {
       "rank": 82,
@@ -1740,7 +1740,7 @@
       "pct_over_ma50": -6.96,
       "pct_over_ma200": -16.95,
       "pct_from_high": -30.5,
-      "vol_ratio": 1.17,
+      "vol_ratio": 1.18,
       "rel_vs_ndx": -26.8,
       "beta": 1.574,
       "pe_ratio": 39.209713,
@@ -1761,7 +1761,7 @@
       "pct_over_ma50": -8.82,
       "pct_over_ma200": -15.33,
       "pct_from_high": -35.42,
-      "vol_ratio": 1.16,
+      "vol_ratio": 1.18,
       "rel_vs_ndx": -29.9,
       "beta": 1.398,
       "pe_ratio": 24.81545,
@@ -1785,7 +1785,7 @@
       "vol_ratio": 1.29,
       "rel_vs_ndx": -23.84,
       "beta": 1.509,
-      "pe_ratio": 52.138855,
+      "pe_ratio": 52.075424,
       "div_yield": 0.0
     },
     {
@@ -1806,8 +1806,8 @@
       "vol_ratio": 0.79,
       "rel_vs_ndx": -29.03,
       "beta": 1.03,
-      "pe_ratio": 23.957447,
-      "div_yield": 125.0
+      "pe_ratio": 23.906582,
+      "div_yield": 124.0
     },
     {
       "rank": 86,
@@ -1849,7 +1849,7 @@
       "rel_vs_ndx": -31.97,
       "beta": 0.868,
       "pe_ratio": 15.028776,
-      "div_yield": 23.0
+      "div_yield": 22.0
     },
     {
       "rank": 88,
@@ -1866,7 +1866,7 @@
       "pct_over_ma50": -8.19,
       "pct_over_ma200": -15.36,
       "pct_from_high": -35.08,
-      "vol_ratio": 0.9,
+      "vol_ratio": 0.91,
       "rel_vs_ndx": -32.74,
       "beta": 1.548,
       "pe_ratio": 28.045162,
@@ -1890,7 +1890,7 @@
       "vol_ratio": 1.53,
       "rel_vs_ndx": -19.71,
       "beta": 1.155,
-      "pe_ratio": 23.894096,
+      "pe_ratio": 23.914858,
       "div_yield": 62.0
     },
     {
@@ -1912,7 +1912,7 @@
       "rel_vs_ndx": -29.02,
       "beta": 0.689,
       "pe_ratio": 4.935294,
-      "div_yield": 529.0
+      "div_yield": 524.0
     },
     {
       "rank": 91,
@@ -1929,10 +1929,10 @@
       "pct_over_ma50": -6.98,
       "pct_over_ma200": -28.0,
       "pct_from_high": -45.45,
-      "vol_ratio": 1.16,
+      "vol_ratio": 1.17,
       "rel_vs_ndx": -18.48,
       "beta": 1.871,
-      "pe_ratio": 72.5,
+      "pe_ratio": 72.843605,
       "div_yield": 0.0
     },
     {
@@ -1953,8 +1953,8 @@
       "vol_ratio": 1.0,
       "rel_vs_ndx": -27.06,
       "beta": 0.803,
-      "pe_ratio": 19.871876,
-      "div_yield": 115.0
+      "pe_ratio": 19.847067,
+      "div_yield": 114.0
     },
     {
       "rank": 93,
@@ -1974,7 +1974,7 @@
       "vol_ratio": 2.71,
       "rel_vs_ndx": -28.29,
       "beta": 1.406,
-      "pe_ratio": 42.343784,
+      "pe_ratio": 42.377274,
       "div_yield": 0.0
     },
     {
@@ -1995,8 +1995,8 @@
       "vol_ratio": 0.97,
       "rel_vs_ndx": -25.35,
       "beta": 0.726,
-      "pe_ratio": 23.945038,
-      "div_yield": 124.0
+      "pe_ratio": 23.908537,
+      "div_yield": 128.0
     },
     {
       "rank": 95,
@@ -2013,7 +2013,7 @@
       "pct_over_ma50": -10.86,
       "pct_over_ma200": -21.57,
       "pct_from_high": -33.2,
-      "vol_ratio": 0.97,
+      "vol_ratio": 0.98,
       "rel_vs_ndx": -30.46,
       "beta": 1.102,
       "pe_ratio": 20.379948,
@@ -2034,7 +2034,7 @@
       "pct_over_ma50": -18.96,
       "pct_over_ma200": -50.13,
       "pct_from_high": -67.11,
-      "vol_ratio": 1.23,
+      "vol_ratio": 1.24,
       "rel_vs_ndx": -32.59,
       "beta": 0.746,
       "pe_ratio": 455.0,
@@ -2058,8 +2058,8 @@
       "vol_ratio": 1.2,
       "rel_vs_ndx": -23.36,
       "beta": 0.201,
-      "pe_ratio": 22.778097,
-      "div_yield": 319.0
+      "pe_ratio": 22.712645,
+      "div_yield": 332.0
     },
     {
       "rank": 98,
@@ -2118,7 +2118,7 @@
       "pct_over_ma50": -18.73,
       "pct_over_ma200": -30.99,
       "pct_from_high": -45.58,
-      "vol_ratio": 1.66,
+      "vol_ratio": 1.67,
       "rel_vs_ndx": -31.24,
       "beta": 2.644,
       "pe_ratio": 95.5098,
@@ -2142,7 +2142,7 @@
       "vol_ratio": 1.3,
       "rel_vs_ndx": -51.63,
       "beta": 0.757,
-      "pe_ratio": 4.003246,
+      "pe_ratio": 4.004329,
       "div_yield": 0.0
     }
   ],
@@ -2268,6 +2268,16 @@
       "best_ticker": "TTWO"
     },
     {
+      "sector": "Oil & Gas Production",
+      "avg_rsl": 1.0334,
+      "median_rsl": 1.0334,
+      "count": 1,
+      "avg_change_26t": 8.08,
+      "in_top25": 0,
+      "top25_pct": 0.0,
+      "best_ticker": "FANG"
+    },
+    {
       "sector": "Department/Specialty Retail Stores",
       "avg_rsl": 1.0326,
       "median_rsl": 1.0326,
@@ -2286,16 +2296,6 @@
       "in_top25": 0,
       "top25_pct": 0.0,
       "best_ticker": "KHC"
-    },
-    {
-      "sector": "Oil & Gas Production",
-      "avg_rsl": 1.0279,
-      "median_rsl": 1.0279,
-      "count": 1,
-      "avg_change_26t": 7.49,
-      "in_top25": 0,
-      "top25_pct": 0.0,
-      "best_ticker": "FANG"
     },
     {
       "sector": "Major Chemicals",
