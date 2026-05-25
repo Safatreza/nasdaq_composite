@@ -1,14 +1,14 @@
 {
   "metadata": {
-    "updated": "2026-05-22T22:58:49",
-    "updated_display": "22.05.2026 22:58",
+    "updated": "2026-05-25T13:29:28",
+    "updated_display": "25.05.2026 13:29",
     "total_analyzed": 101,
     "failed": 0,
     "rsl_period_days": 26,
     "index": "Nasdaq-100"
   },
   "stats": {
-    "avg_rsl": 1.0376,
+    "avg_rsl": 1.0377,
     "median_rsl": 1.0131,
     "max_rsl": 1.4114,
     "max_ticker": "ARM",
@@ -17,10 +17,10 @@
     "bullish_count": 64,
     "bearish_count": 37,
     "returns_avg": {
-      "26t": 8.79,
+      "26t": 8.8,
       "1m": 6.83,
-      "3m": 15.13,
-      "6m": 27.79
+      "3m": 15.14,
+      "6m": 27.8
     }
   },
   "rankings": [
@@ -60,10 +60,10 @@
       "pct_over_ma50": 53.37,
       "pct_over_ma200": 56.66,
       "pct_from_high": 0.0,
-      "vol_ratio": 0.94,
+      "vol_ratio": 0.98,
       "rel_vs_ndx": 65.06,
       "beta": 1.295,
-      "pe_ratio": 570.05133,
+      "pe_ratio": 555.8,
       "div_yield": 0.0
     },
     {
@@ -84,8 +84,8 @@
       "vol_ratio": 1.16,
       "rel_vs_ndx": 64.33,
       "beta": 1.493,
-      "pe_ratio": 25.608603,
-      "div_yield": 172.0
+      "pe_ratio": 25.636168,
+      "div_yield": 155.0
     },
     {
       "rank": 4,
@@ -186,10 +186,10 @@
       "pct_over_ma50": 54.2,
       "pct_over_ma200": 102.49,
       "pct_from_high": 0.0,
-      "vol_ratio": 0.84,
+      "vol_ratio": 0.85,
       "rel_vs_ndx": 57.4,
       "beta": 2.399,
-      "pe_ratio": 155.31894,
+      "pe_ratio": 156.35786,
       "div_yield": 0.0
     },
     {
@@ -207,11 +207,11 @@
       "pct_over_ma50": 34.13,
       "pct_over_ma200": 55.81,
       "pct_from_high": 0.0,
-      "vol_ratio": 1.1,
+      "vol_ratio": 1.11,
       "rel_vs_ndx": 29.08,
       "beta": 0.912,
       "pe_ratio": 40.13667,
-      "div_yield": 142.0
+      "div_yield": 140.0
     },
     {
       "rank": 10,
@@ -231,7 +231,7 @@
       "vol_ratio": 1.01,
       "rel_vs_ndx": 54.5,
       "beta": 1.919,
-      "pe_ratio": 35.441246,
+      "pe_ratio": 35.457977,
       "div_yield": 8.0
     },
     {
@@ -273,7 +273,7 @@
       "vol_ratio": 0.72,
       "rel_vs_ndx": 50.02,
       "beta": null,
-      "pe_ratio": 50.467236,
+      "pe_ratio": 50.501366,
       "div_yield": 0.0
     },
     {
@@ -294,8 +294,8 @@
       "vol_ratio": 0.96,
       "rel_vs_ndx": 30.02,
       "beta": 2.251,
-      "pe_ratio": 63.95114,
-      "div_yield": 13.0
+      "pe_ratio": 64.16013,
+      "div_yield": 12.0
     },
     {
       "rank": 14,
@@ -333,11 +333,11 @@
       "pct_over_ma50": 40.36,
       "pct_over_ma200": 130.51,
       "pct_from_high": -2.55,
-      "vol_ratio": 0.81,
+      "vol_ratio": 0.82,
       "rel_vs_ndx": 37.85,
       "beta": 2.009,
-      "pe_ratio": 77.10911,
-      "div_yield": 37.0
+      "pe_ratio": 76.89026,
+      "div_yield": 36.0
     },
     {
       "rank": 16,
@@ -354,11 +354,11 @@
       "pct_over_ma50": 32.65,
       "pct_over_ma200": 40.8,
       "pct_from_high": 0.0,
-      "vol_ratio": 0.99,
+      "vol_ratio": 1.0,
       "rel_vs_ndx": 35.96,
       "beta": 1.776,
-      "pe_ratio": 30.284212,
-      "div_yield": 135.0
+      "pe_ratio": 30.197521,
+      "div_yield": 128.0
     },
     {
       "rank": 17,
@@ -378,7 +378,7 @@
       "vol_ratio": 0.88,
       "rel_vs_ndx": 3.58,
       "beta": 1.819,
-      "pe_ratio": 57.72212,
+      "pe_ratio": 57.83144,
       "div_yield": 34.0
     },
     {
@@ -399,8 +399,8 @@
       "vol_ratio": 0.95,
       "rel_vs_ndx": 24.7,
       "beta": 1.298,
-      "pe_ratio": 52.85641,
-      "div_yield": 190.0
+      "pe_ratio": 52.946915,
+      "div_yield": 184.0
     },
     {
       "rank": 19,
@@ -420,8 +420,8 @@
       "vol_ratio": 0.89,
       "rel_vs_ndx": 1.57,
       "beta": 1.373,
-      "pe_ratio": 54.2672,
-      "div_yield": 55.0
+      "pe_ratio": 54.339436,
+      "div_yield": 54.0
     },
     {
       "rank": 20,
@@ -438,10 +438,10 @@
       "pct_over_ma50": 27.65,
       "pct_over_ma200": 118.81,
       "pct_from_high": -6.12,
-      "vol_ratio": 0.72,
+      "vol_ratio": 0.74,
       "rel_vs_ndx": 19.47,
       "beta": 2.158,
-      "pe_ratio": 28.946802,
+      "pe_ratio": 28.98145,
       "div_yield": 12.0
     },
     {
@@ -483,7 +483,7 @@
       "vol_ratio": 0.91,
       "rel_vs_ndx": 3.86,
       "beta": 1.065,
-      "pe_ratio": 37.3422,
+      "pe_ratio": 37.432728,
       "div_yield": 35.0
     },
     {
@@ -501,7 +501,7 @@
       "pct_over_ma50": 11.76,
       "pct_over_ma200": 17.71,
       "pct_from_high": -1.98,
-      "vol_ratio": 0.84,
+      "vol_ratio": 0.85,
       "rel_vs_ndx": 2.6,
       "beta": 0.501,
       "pe_ratio": 41.92754,
@@ -526,7 +526,7 @@
       "rel_vs_ndx": 1.86,
       "beta": 0.841,
       "pe_ratio": 21.017723,
-      "div_yield": 309.0
+      "div_yield": 302.0
     },
     {
       "rank": 25,
@@ -546,7 +546,7 @@
       "vol_ratio": 1.03,
       "rel_vs_ndx": 6.19,
       "beta": 1.245,
-      "pe_ratio": 80.72923,
+      "pe_ratio": 80.60522,
       "div_yield": 0.0
     },
     {
@@ -568,7 +568,7 @@
       "rel_vs_ndx": -3.69,
       "beta": null,
       "pe_ratio": 21.412802,
-      "div_yield": 505.0
+      "div_yield": 491.0
     },
     {
       "rank": 27,
@@ -588,7 +588,7 @@
       "vol_ratio": 0.75,
       "rel_vs_ndx": -4.19,
       "beta": 1.793,
-      "pe_ratio": 390.83487,
+      "pe_ratio": 383.7928,
       "div_yield": 0.0
     },
     {
@@ -606,11 +606,11 @@
       "pct_over_ma50": 6.95,
       "pct_over_ma200": 28.3,
       "pct_from_high": 0.0,
-      "vol_ratio": 1.43,
+      "vol_ratio": 1.44,
       "rel_vs_ndx": -7.46,
       "beta": 0.875,
-      "pe_ratio": 35.577274,
-      "div_yield": 82.0
+      "pe_ratio": 32.794693,
+      "div_yield": 76.0
     },
     {
       "rank": 29,
@@ -631,7 +631,7 @@
       "rel_vs_ndx": -12.4,
       "beta": 0.811,
       "pe_ratio": 36.350876,
-      "div_yield": 213.0
+      "div_yield": 209.0
     },
     {
       "rank": 30,
@@ -651,8 +651,8 @@
       "vol_ratio": 1.02,
       "rel_vs_ndx": -1.52,
       "beta": 1.654,
-      "pe_ratio": 40.61654,
-      "div_yield": 50.0
+      "pe_ratio": 40.65475,
+      "div_yield": 49.0
     },
     {
       "rank": 31,
@@ -672,8 +672,8 @@
       "vol_ratio": 0.92,
       "rel_vs_ndx": -4.98,
       "beta": 1.501,
-      "pe_ratio": 53.389317,
-      "div_yield": 50.0
+      "pe_ratio": 53.480034,
+      "div_yield": 49.0
     },
     {
       "rank": 32,
@@ -690,11 +690,11 @@
       "pct_over_ma50": 5.27,
       "pct_over_ma200": -0.79,
       "pct_from_high": -16.2,
-      "vol_ratio": 0.96,
+      "vol_ratio": 0.97,
       "rel_vs_ndx": -4.66,
       "beta": 0.046,
       "pe_ratio": null,
-      "div_yield": 680.0
+      "div_yield": 673.0
     },
     {
       "rank": 33,
@@ -714,7 +714,7 @@
       "vol_ratio": 1.39,
       "rel_vs_ndx": -7.05,
       "beta": 1.035,
-      "pe_ratio": 49.28462,
+      "pe_ratio": 39.79503,
       "div_yield": 0.0
     },
     {
@@ -735,7 +735,7 @@
       "vol_ratio": 0.81,
       "rel_vs_ndx": -4.62,
       "beta": 1.533,
-      "pe_ratio": 166.41476,
+      "pe_ratio": 166.70775,
       "div_yield": 0.0
     },
     {
@@ -757,7 +757,7 @@
       "rel_vs_ndx": -2.65,
       "beta": 0.404,
       "pe_ratio": 30.574257,
-      "div_yield": 325.0
+      "div_yield": 324.0
     },
     {
       "rank": 36,
@@ -774,10 +774,10 @@
       "pct_over_ma50": 3.53,
       "pct_over_ma200": 11.87,
       "pct_from_high": 0.0,
-      "vol_ratio": 0.82,
+      "vol_ratio": 0.83,
       "rel_vs_ndx": -5.38,
       "beta": 0.74,
-      "pe_ratio": 34.32228,
+      "pe_ratio": 34.367863,
       "div_yield": 124.0
     },
     {
@@ -785,18 +785,18 @@
       "ticker": "MAR",
       "company": "Marriott International",
       "sector": "Hotels/Resorts",
-      "rsl": 1.0234,
+      "rsl": 1.0254,
       "percentile": 64.4,
       "price": 369.15,
-      "change_26t": -2.32,
-      "change_1m": 2.35,
-      "change_3m": 8.02,
-      "change_6m": 29.76,
-      "pct_over_ma50": 5.97,
-      "pct_over_ma200": 20.01,
-      "pct_from_high": -2.53,
+      "change_26t": -2.13,
+      "change_1m": 2.55,
+      "change_3m": 8.24,
+      "change_6m": 30.01,
+      "pct_over_ma50": 6.18,
+      "pct_over_ma200": 20.25,
+      "pct_from_high": -2.33,
       "vol_ratio": 0.92,
-      "rel_vs_ndx": -12.85,
+      "rel_vs_ndx": -12.66,
       "beta": 1.107,
       "pe_ratio": 38.614014,
       "div_yield": 79.0
@@ -841,7 +841,7 @@
       "rel_vs_ndx": -0.77,
       "beta": 0.416,
       "pe_ratio": 21.57037,
-      "div_yield": 320.0
+      "div_yield": 316.0
     },
     {
       "rank": 40,
@@ -861,16 +861,37 @@
       "vol_ratio": 0.96,
       "rel_vs_ndx": 1.25,
       "beta": 1.267,
-      "pe_ratio": 28.938217,
+      "pe_ratio": 28.894136,
       "div_yield": 23.0
     },
     {
       "rank": 41,
+      "ticker": "MCHP",
+      "company": "Microchip Technology",
+      "sector": "Semiconductors",
+      "rsl": 1.0189,
+      "percentile": 60.4,
+      "price": 93.43,
+      "change_26t": 19.22,
+      "change_1m": 8.13,
+      "change_3m": 25.8,
+      "change_6m": 78.2,
+      "pct_over_ma50": 17.32,
+      "pct_over_ma200": 35.25,
+      "pct_from_high": -8.77,
+      "vol_ratio": 0.93,
+      "rel_vs_ndx": 8.69,
+      "beta": 1.737,
+      "pe_ratio": 424.68182,
+      "div_yield": 195.0
+    },
+    {
+      "rank": 42,
       "ticker": "APP",
       "company": "AppLovin",
       "sector": "Computer Software",
       "rsl": 1.0179,
-      "percentile": 60.4,
+      "percentile": 59.4,
       "price": 481.68,
       "change_26t": 0.94,
       "change_1m": 4.65,
@@ -882,16 +903,16 @@
       "vol_ratio": 0.8,
       "rel_vs_ndx": -9.59,
       "beta": 2.366,
-      "pe_ratio": 41.812496,
+      "pe_ratio": 41.848827,
       "div_yield": 0.0
     },
     {
-      "rank": 42,
+      "rank": 43,
       "ticker": "TTWO",
       "company": "Take-Two Interactive",
       "sector": "Miscellaneous Amusement & Recreation Services",
       "rsl": 1.0177,
-      "percentile": 59.4,
+      "percentile": 58.4,
       "price": 227.55,
       "change_26t": 7.31,
       "change_1m": 6.45,
@@ -900,19 +921,19 @@
       "pct_over_ma50": 7.05,
       "pct_over_ma200": -1.87,
       "pct_from_high": -13.24,
-      "vol_ratio": 1.8,
+      "vol_ratio": 1.82,
       "rel_vs_ndx": -3.22,
       "beta": 0.973,
       "pe_ratio": null,
       "div_yield": 0.0
     },
     {
-      "rank": 43,
+      "rank": 44,
       "ticker": "NVDA",
       "company": "Nvidia",
       "sector": "Semiconductors",
       "rsl": 1.0163,
-      "percentile": 58.4,
+      "percentile": 57.4,
       "price": 215.33,
       "change_26t": 6.77,
       "change_1m": -0.59,
@@ -928,12 +949,12 @@
       "div_yield": 2.0
     },
     {
-      "rank": 44,
+      "rank": 45,
       "ticker": "GILD",
       "company": "Gilead Sciences",
       "sector": "Biotechnology",
       "rsl": 1.0159,
-      "percentile": 57.4,
+      "percentile": 56.4,
       "price": 134.36,
       "change_26t": -2.38,
       "change_1m": 5.17,
@@ -946,15 +967,15 @@
       "rel_vs_ndx": -12.91,
       "beta": 0.332,
       "pe_ratio": 18.280272,
-      "div_yield": 251.0
+      "div_yield": 244.0
     },
     {
-      "rank": 45,
+      "rank": 46,
       "ticker": "EXC",
       "company": "Exelon",
       "sector": "Power Generation",
       "rsl": 1.0145,
-      "percentile": 56.4,
+      "percentile": 55.4,
       "price": 46.23,
       "change_26t": -1.68,
       "change_1m": -0.77,
@@ -967,15 +988,15 @@
       "rel_vs_ndx": -12.21,
       "beta": 0.416,
       "pe_ratio": 16.934065,
-      "div_yield": 370.0
+      "div_yield": 363.0
     },
     {
-      "rank": 46,
+      "rank": 47,
       "ticker": "FANG",
       "company": "Diamondback Energy",
       "sector": "Oil & Gas Production",
       "rsl": 1.0143,
-      "percentile": 55.4,
+      "percentile": 54.5,
       "price": 200.71,
       "change_26t": 11.95,
       "change_1m": 2.75,
@@ -989,27 +1010,6 @@
       "beta": 0.442,
       "pe_ratio": 204.80612,
       "div_yield": 219.0
-    },
-    {
-      "rank": 47,
-      "ticker": "MCHP",
-      "company": "Microchip Technology",
-      "sector": "Semiconductors",
-      "rsl": 1.014,
-      "percentile": 54.5,
-      "price": 93.43,
-      "change_26t": 18.63,
-      "change_1m": 7.59,
-      "change_3m": 25.17,
-      "change_6m": 77.31,
-      "pct_over_ma50": 16.74,
-      "pct_over_ma200": 34.57,
-      "pct_from_high": -9.22,
-      "vol_ratio": 0.92,
-      "rel_vs_ndx": 8.1,
-      "beta": 1.737,
-      "pe_ratio": 424.68182,
-      "div_yield": 200.0
     },
     {
       "rank": 48,
@@ -1030,7 +1030,7 @@
       "rel_vs_ndx": -13.88,
       "beta": 1.172,
       "pe_ratio": 43.847916,
-      "div_yield": 56.0
+      "div_yield": 55.0
     },
     {
       "rank": 49,
@@ -1047,11 +1047,11 @@
       "pct_over_ma50": 15.56,
       "pct_over_ma200": 47.78,
       "pct_from_high": -4.29,
-      "vol_ratio": 1.05,
+      "vol_ratio": 1.06,
       "rel_vs_ndx": -2.26,
       "beta": 1.742,
-      "pe_ratio": 114.374825,
-      "div_yield": 51.0
+      "pe_ratio": 113.63903,
+      "div_yield": 50.0
     },
     {
       "rank": 50,
@@ -1068,11 +1068,11 @@
       "pct_over_ma50": -0.67,
       "pct_over_ma200": 5.2,
       "pct_from_high": -11.93,
-      "vol_ratio": 0.94,
+      "vol_ratio": 0.95,
       "rel_vs_ndx": -14.31,
       "beta": 0.435,
-      "pe_ratio": 23.61169,
-      "div_yield": 299.0
+      "pe_ratio": 23.578873,
+      "div_yield": 297.0
     },
     {
       "rank": 51,
@@ -1089,11 +1089,11 @@
       "pct_over_ma50": 1.41,
       "pct_over_ma200": 5.05,
       "pct_from_high": -2.66,
-      "vol_ratio": 0.96,
+      "vol_ratio": 0.97,
       "rel_vs_ndx": -10.53,
       "beta": 0.421,
       "pe_ratio": 23.365995,
-      "div_yield": 296.0
+      "div_yield": 292.0
     },
     {
       "rank": 52,
@@ -1131,11 +1131,11 @@
       "pct_over_ma50": 6.06,
       "pct_over_ma200": 20.2,
       "pct_from_high": -1.47,
-      "vol_ratio": 0.81,
+      "vol_ratio": 0.83,
       "rel_vs_ndx": -5.45,
       "beta": 1.238,
       "pe_ratio": 27.92638,
-      "div_yield": 122.0
+      "div_yield": 123.0
     },
     {
       "rank": 54,
@@ -1173,11 +1173,11 @@
       "pct_over_ma50": 4.71,
       "pct_over_ma200": 24.55,
       "pct_from_high": -4.86,
-      "vol_ratio": 0.88,
+      "vol_ratio": 0.9,
       "rel_vs_ndx": 0.34,
       "beta": 0.97,
       "pe_ratio": 21.10543,
-      "div_yield": 140.0
+      "div_yield": 139.0
     },
     {
       "rank": 56,
@@ -1194,10 +1194,10 @@
       "pct_over_ma50": 10.09,
       "pct_over_ma200": 15.52,
       "pct_from_high": -3.15,
-      "vol_ratio": 0.77,
+      "vol_ratio": 0.78,
       "rel_vs_ndx": -4.24,
       "beta": 1.468,
-      "pe_ratio": 31.405663,
+      "pe_ratio": 31.629454,
       "div_yield": 0.0
     },
     {
@@ -1218,8 +1218,8 @@
       "vol_ratio": 1.28,
       "rel_vs_ndx": -7.55,
       "beta": 0.908,
-      "pe_ratio": 53.49844,
-      "div_yield": 56.0
+      "pe_ratio": 53.47062,
+      "div_yield": 57.0
     },
     {
       "rank": 58,
@@ -1239,7 +1239,7 @@
       "vol_ratio": 1.04,
       "rel_vs_ndx": -14.25,
       "beta": 0.493,
-      "pe_ratio": 19.052631,
+      "pe_ratio": 19.014143,
       "div_yield": 256.0
     },
     {
@@ -1261,7 +1261,7 @@
       "rel_vs_ndx": -23.87,
       "beta": 0.803,
       "pe_ratio": 11.442516,
-      "div_yield": 252.0
+      "div_yield": 250.0
     },
     {
       "rank": 60,
@@ -1278,10 +1278,10 @@
       "pct_over_ma50": 4.74,
       "pct_over_ma200": -8.66,
       "pct_from_high": -22.29,
-      "vol_ratio": 0.87,
+      "vol_ratio": 0.88,
       "rel_vs_ndx": -11.31,
       "beta": 1.093,
-      "pe_ratio": 24.90006,
+      "pe_ratio": 24.944576,
       "div_yield": 87.0
     },
     {
@@ -1299,7 +1299,7 @@
       "pct_over_ma50": -1.31,
       "pct_over_ma200": -0.05,
       "pct_from_high": -14.72,
-      "vol_ratio": 1.2,
+      "vol_ratio": 1.21,
       "rel_vs_ndx": -12.04,
       "beta": 0.301,
       "pe_ratio": 25.77224,
@@ -1323,7 +1323,7 @@
       "vol_ratio": 1.02,
       "rel_vs_ndx": -15.6,
       "beta": 1.574,
-      "pe_ratio": 41.099926,
+      "pe_ratio": 41.16041,
       "div_yield": 0.0
     },
     {
@@ -1341,10 +1341,10 @@
       "pct_over_ma50": 0.47,
       "pct_over_ma200": -12.68,
       "pct_from_high": -26.26,
-      "vol_ratio": 1.01,
+      "vol_ratio": 1.04,
       "rel_vs_ndx": -10.96,
       "beta": 1.322,
-      "pe_ratio": 45.99046,
+      "pe_ratio": 46.078396,
       "div_yield": 0.0
     },
     {
@@ -1362,11 +1362,11 @@
       "pct_over_ma50": 4.63,
       "pct_over_ma200": 14.57,
       "pct_from_high": -3.47,
-      "vol_ratio": 0.94,
+      "vol_ratio": 0.95,
       "rel_vs_ndx": -6.82,
       "beta": 1.009,
       "pe_ratio": 78.70993,
-      "div_yield": 238.0
+      "div_yield": 241.0
     },
     {
       "rank": 65,
@@ -1386,8 +1386,8 @@
       "vol_ratio": 1.31,
       "rel_vs_ndx": -11.36,
       "beta": 0.552,
-      "pe_ratio": 19.437223,
-      "div_yield": 293.0
+      "pe_ratio": 19.465975,
+      "div_yield": 289.0
     },
     {
       "rank": 66,
@@ -1404,11 +1404,11 @@
       "pct_over_ma50": 0.2,
       "pct_over_ma200": -9.0,
       "pct_from_high": -26.91,
-      "vol_ratio": 1.08,
+      "vol_ratio": 1.09,
       "rel_vs_ndx": -11.1,
       "beta": 1.155,
-      "pe_ratio": 25.526909,
-      "div_yield": 60.0
+      "pe_ratio": 25.571304,
+      "div_yield": 58.0
     },
     {
       "rank": 67,
@@ -1446,10 +1446,10 @@
       "pct_over_ma50": -0.5,
       "pct_over_ma200": 2.36,
       "pct_from_high": -1.77,
-      "vol_ratio": 0.91,
+      "vol_ratio": 0.96,
       "rel_vs_ndx": -11.93,
       "beta": 0.656,
-      "pe_ratio": 57.256413,
+      "pe_ratio": 57.09375,
       "div_yield": 38.0
     },
     {
@@ -1467,11 +1467,11 @@
       "pct_over_ma50": -3.38,
       "pct_over_ma200": -9.64,
       "pct_from_high": -25.72,
-      "vol_ratio": 0.68,
+      "vol_ratio": 0.7,
       "rel_vs_ndx": -13.67,
       "beta": 0.32,
-      "pe_ratio": 20.347504,
-      "div_yield": 214.0
+      "pe_ratio": 20.36915,
+      "div_yield": 213.0
     },
     {
       "rank": 70,
@@ -1488,10 +1488,10 @@
       "pct_over_ma50": -4.15,
       "pct_over_ma200": -23.41,
       "pct_from_high": -39.45,
-      "vol_ratio": 0.68,
+      "vol_ratio": 0.69,
       "rel_vs_ndx": -14.47,
       "beta": 0.302,
-      "pe_ratio": 74.92444,
+      "pe_ratio": 74.548874,
       "div_yield": 0.0
     },
     {
@@ -1534,7 +1534,7 @@
       "rel_vs_ndx": -14.04,
       "beta": 0.744,
       "pe_ratio": 38.884956,
-      "div_yield": 211.0
+      "div_yield": 209.0
     },
     {
       "rank": 73,
@@ -1593,7 +1593,7 @@
       "pct_over_ma50": -0.38,
       "pct_over_ma200": -5.28,
       "pct_from_high": -14.91,
-      "vol_ratio": 0.92,
+      "vol_ratio": 0.93,
       "rel_vs_ndx": -12.63,
       "beta": 0.584,
       "pe_ratio": 29.882736,
@@ -1614,11 +1614,11 @@
       "pct_over_ma50": 8.78,
       "pct_over_ma200": 35.19,
       "pct_from_high": -8.17,
-      "vol_ratio": 1.69,
+      "vol_ratio": 1.75,
       "rel_vs_ndx": -3.63,
       "beta": 1.194,
-      "pe_ratio": 59.0878,
-      "div_yield": 115.0
+      "pe_ratio": 59.175858,
+      "div_yield": 111.0
     },
     {
       "rank": 77,
@@ -1635,11 +1635,11 @@
       "pct_over_ma50": 0.7,
       "pct_over_ma200": 5.85,
       "pct_from_high": -8.39,
-      "vol_ratio": 1.08,
+      "vol_ratio": 1.09,
       "rel_vs_ndx": -15.96,
       "beta": 0.797,
-      "pe_ratio": 48.898552,
-      "div_yield": 242.0
+      "pe_ratio": 49.61765,
+      "div_yield": 245.0
     },
     {
       "rank": 78,
@@ -1719,11 +1719,11 @@
       "pct_over_ma50": -2.28,
       "pct_over_ma200": 1.08,
       "pct_from_high": -10.89,
-      "vol_ratio": 1.24,
+      "vol_ratio": 1.29,
       "rel_vs_ndx": -15.03,
       "beta": 0.394,
       "pe_ratio": 23.637363,
-      "div_yield": 398.0
+      "div_yield": 393.0
     },
     {
       "rank": 82,
@@ -1740,10 +1740,10 @@
       "pct_over_ma50": -6.81,
       "pct_over_ma200": -32.74,
       "pct_from_high": -55.68,
-      "vol_ratio": 0.95,
+      "vol_ratio": 0.96,
       "rel_vs_ndx": -14.71,
       "beta": 1.435,
-      "pe_ratio": 155.02008,
+      "pe_ratio": 156.2753,
       "div_yield": 0.0
     },
     {
@@ -1764,7 +1764,7 @@
       "vol_ratio": 1.04,
       "rel_vs_ndx": -17.16,
       "beta": 1.509,
-      "pe_ratio": 53.296837,
+      "pe_ratio": 53.167477,
       "div_yield": 0.0
     },
     {
@@ -1782,11 +1782,11 @@
       "pct_over_ma50": -1.22,
       "pct_over_ma200": -8.73,
       "pct_from_high": -22.57,
-      "vol_ratio": 0.75,
+      "vol_ratio": 0.76,
       "rel_vs_ndx": -21.9,
       "beta": 1.243,
-      "pe_ratio": 22.183207,
-      "div_yield": 35.0
+      "pe_ratio": 22.175146,
+      "div_yield": 34.0
     },
     {
       "rank": 85,
@@ -1807,7 +1807,7 @@
       "rel_vs_ndx": -16.08,
       "beta": 0.201,
       "pe_ratio": 24.743515,
-      "div_yield": 306.0
+      "div_yield": 305.0
     },
     {
       "rank": 86,
@@ -1827,7 +1827,7 @@
       "vol_ratio": 0.97,
       "rel_vs_ndx": -20.33,
       "beta": 0.033,
-      "pe_ratio": 9.764462,
+      "pe_ratio": 9.744329,
       "div_yield": 0.0
     },
     {
@@ -1848,7 +1848,7 @@
       "vol_ratio": 0.99,
       "rel_vs_ndx": -20.84,
       "beta": 1.406,
-      "pe_ratio": 43.892937,
+      "pe_ratio": 43.858234,
       "div_yield": 0.0
     },
     {
@@ -1890,8 +1890,8 @@
       "vol_ratio": 1.02,
       "rel_vs_ndx": -26.65,
       "beta": 1.102,
-      "pe_ratio": 21.24802,
-      "div_yield": 101.0
+      "pe_ratio": 21.220026,
+      "div_yield": 100.0
     },
     {
       "rank": 90,
@@ -1911,7 +1911,7 @@
       "vol_ratio": 1.21,
       "rel_vs_ndx": -23.39,
       "beta": 1.871,
-      "pe_ratio": 76.309525,
+      "pe_ratio": 75.58963,
       "div_yield": 0.0
     },
     {
@@ -1932,29 +1932,29 @@
       "vol_ratio": 0.85,
       "rel_vs_ndx": -20.32,
       "beta": 0.803,
-      "pe_ratio": 20.420986,
-      "div_yield": 112.0
+      "pe_ratio": 20.40824,
+      "div_yield": 111.0
     },
     {
       "rank": 92,
       "ticker": "CMCSA",
       "company": "Comcast",
       "sector": "Cable & Other Pay Television Services",
-      "rsl": 0.9437,
+      "rsl": 0.9439,
       "percentile": 9.9,
-      "price": 25.2,
-      "change_26t": -14.93,
-      "change_1m": -8.38,
-      "change_3m": -17.64,
-      "change_6m": 0.06,
-      "pct_over_ma50": -8.58,
-      "pct_over_ma200": -10.11,
-      "pct_from_high": -22.73,
+      "price": 25.21,
+      "change_26t": -14.92,
+      "change_1m": -8.36,
+      "change_3m": -17.63,
+      "change_6m": 0.08,
+      "pct_over_ma50": -8.56,
+      "pct_over_ma200": -10.09,
+      "pct_from_high": -22.71,
       "vol_ratio": 0.92,
-      "rel_vs_ndx": -25.46,
+      "rel_vs_ndx": -25.45,
       "beta": 0.689,
       "pe_ratio": 4.942157,
-      "div_yield": 526.0
+      "div_yield": 524.0
     },
     {
       "rank": 93,
@@ -1971,7 +1971,7 @@
       "pct_over_ma50": -6.83,
       "pct_over_ma200": 0.05,
       "pct_from_high": -15.28,
-      "vol_ratio": 1.04,
+      "vol_ratio": 1.05,
       "rel_vs_ndx": -23.65,
       "beta": 1.03,
       "pe_ratio": 23.265959,
@@ -1996,7 +1996,7 @@
       "rel_vs_ndx": -23.48,
       "beta": 1.395,
       "pe_ratio": 8.298311,
-      "div_yield": 126.0
+      "div_yield": 127.0
     },
     {
       "rank": 95,
@@ -2058,7 +2058,7 @@
       "vol_ratio": 1.97,
       "rel_vs_ndx": -25.28,
       "beta": 0.296,
-      "pe_ratio": 15.609089,
+      "pe_ratio": 15.601465,
       "div_yield": 59.0
     },
     {
@@ -2142,8 +2142,8 @@
       "vol_ratio": 2.64,
       "rel_vs_ndx": -29.17,
       "beta": 1.035,
-      "pe_ratio": 19.508537,
-      "div_yield": 151.0
+      "pe_ratio": 19.532358,
+      "div_yield": 150.0
     }
   ],
   "sectors": [
@@ -2189,10 +2189,10 @@
     },
     {
       "sector": "Semiconductors",
-      "avg_rsl": 1.1182,
+      "avg_rsl": 1.1186,
       "median_rsl": 1.1025,
       "count": 13,
-      "avg_change_26t": 35.81,
+      "avg_change_26t": 35.85,
       "in_top25": 7,
       "top25_pct": 53.8,
       "best_ticker": "ARM"
@@ -2299,10 +2299,10 @@
     },
     {
       "sector": "Hotels/Resorts",
-      "avg_rsl": 1.0234,
-      "median_rsl": 1.0234,
+      "avg_rsl": 1.0254,
+      "median_rsl": 1.0254,
       "count": 1,
-      "avg_change_26t": -2.32,
+      "avg_change_26t": -2.13,
       "in_top25": 0,
       "top25_pct": 0.0,
       "best_ticker": "MAR"
@@ -2569,10 +2569,10 @@
     },
     {
       "sector": "Cable & Other Pay Television Services",
-      "avg_rsl": 0.8934,
-      "median_rsl": 0.8934,
+      "avg_rsl": 0.8936,
+      "median_rsl": 0.8936,
       "count": 2,
-      "avg_change_26t": -26.8,
+      "avg_change_26t": -26.79,
       "in_top25": 0,
       "top25_pct": 0.0,
       "best_ticker": "CMCSA"
