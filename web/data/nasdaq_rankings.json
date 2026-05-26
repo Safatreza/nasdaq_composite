@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "updated": "2026-05-25T23:02:12",
-    "updated_display": "25.05.2026 23:02",
+    "updated": "2026-05-26T12:41:37",
+    "updated_display": "26.05.2026 12:41",
     "total_analyzed": 101,
     "failed": 0,
     "rsl_period_days": 26,
@@ -1659,7 +1659,7 @@
       "vol_ratio": 0.97,
       "rel_vs_ndx": -14.44,
       "beta": 0.726,
-      "pe_ratio": 26.083841,
+      "pe_ratio": 26.123663,
       "div_yield": 117.0
     },
     {
@@ -1806,7 +1806,7 @@
       "vol_ratio": 0.96,
       "rel_vs_ndx": -16.08,
       "beta": 0.201,
-      "pe_ratio": 24.743515,
+      "pe_ratio": 24.672415,
       "div_yield": 305.0
     },
     {
