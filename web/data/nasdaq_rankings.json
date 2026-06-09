@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "updated": "2026-06-08T23:12:28",
-    "updated_display": "08.06.2026 23:12",
+    "updated": "2026-06-09T12:37:40",
+    "updated_display": "09.06.2026 12:37",
     "total_analyzed": 101,
     "failed": 0,
     "rsl_period_days": 26,
@@ -19,7 +19,7 @@
     "returns_avg": {
       "26t": 5.11,
       "1m": 2.29,
-      "3m": 20.23,
+      "3m": 20.24,
       "6m": 28.46
     }
   },
@@ -39,11 +39,11 @@
       "pct_over_ma50": 70.76,
       "pct_over_ma200": 176.39,
       "pct_from_high": -8.72,
-      "vol_ratio": 2.74,
+      "vol_ratio": 2.75,
       "rel_vs_ndx": 68.96,
       "beta": 2.277,
-      "pe_ratio": 99.60345,
-      "div_yield": 9.0
+      "pe_ratio": 98.921234,
+      "div_yield": 8.0
     },
     {
       "rank": 2,
@@ -63,7 +63,7 @@
       "vol_ratio": 1.16,
       "rel_vs_ndx": 57.88,
       "beta": 3.786,
-      "pe_ratio": 402.77908,
+      "pe_ratio": 398.14944,
       "div_yield": 0.0
     },
     {
@@ -85,7 +85,7 @@
       "rel_vs_ndx": 68.93,
       "beta": 2.173,
       "pe_ratio": 44.840813,
-      "div_yield": 7.0
+      "div_yield": 6.0
     },
     {
       "rank": 4,
@@ -105,8 +105,8 @@
       "vol_ratio": 1.05,
       "rel_vs_ndx": 14.02,
       "beta": 1.18,
-      "pe_ratio": 51.675728,
-      "div_yield": 48.0
+      "pe_ratio": 51.56785,
+      "div_yield": 47.0
     },
     {
       "rank": 5,
@@ -126,7 +126,7 @@
       "vol_ratio": 1.06,
       "rel_vs_ndx": 59.62,
       "beta": 1.109,
-      "pe_ratio": 55.44186,
+      "pe_ratio": 55.657585,
       "div_yield": 0.0
     },
     {
@@ -168,7 +168,7 @@
       "vol_ratio": 1.06,
       "rel_vs_ndx": 10.94,
       "beta": 1.422,
-      "pe_ratio": 189.94354,
+      "pe_ratio": 188.424,
       "div_yield": 0.0
     },
     {
@@ -189,8 +189,8 @@
       "vol_ratio": 1.21,
       "rel_vs_ndx": 16.12,
       "beta": 1.504,
-      "pe_ratio": 59.71842,
-      "div_yield": 48.0
+      "pe_ratio": 59.88807,
+      "div_yield": 44.0
     },
     {
       "rank": 9,
@@ -210,8 +210,8 @@
       "vol_ratio": 1.38,
       "rel_vs_ndx": 20.5,
       "beta": 1.672,
-      "pe_ratio": 46.21315,
-      "div_yield": 47.0
+      "pe_ratio": 46.300095,
+      "div_yield": 43.0
     },
     {
       "rank": 10,
@@ -232,7 +232,7 @@
       "rel_vs_ndx": 29.02,
       "beta": 1.004,
       "pe_ratio": 41.383335,
-      "div_yield": 138.0
+      "div_yield": 135.0
     },
     {
       "rank": 11,
@@ -252,8 +252,8 @@
       "vol_ratio": 1.18,
       "rel_vs_ndx": 16.42,
       "beta": 1.396,
-      "pe_ratio": 58.2237,
-      "div_yield": 54.0
+      "pe_ratio": 58.830814,
+      "div_yield": 50.0
     },
     {
       "rank": 12,
@@ -273,7 +273,7 @@
       "vol_ratio": 1.4,
       "rel_vs_ndx": 40.93,
       "beta": 0.942,
-      "pe_ratio": 233.6228,
+      "pe_ratio": 231.5913,
       "div_yield": 0.0
     },
     {
@@ -294,7 +294,7 @@
       "vol_ratio": 1.23,
       "rel_vs_ndx": 58.71,
       "beta": 1.553,
-      "pe_ratio": 579.19995,
+      "pe_ratio": 594.0513,
       "div_yield": 0.0
     },
     {
@@ -315,7 +315,7 @@
       "vol_ratio": 0.83,
       "rel_vs_ndx": 7.08,
       "beta": 1.081,
-      "pe_ratio": 44.925,
+      "pe_ratio": 44.785046,
       "div_yield": 0.0
     },
     {
@@ -336,7 +336,7 @@
       "vol_ratio": 0.89,
       "rel_vs_ndx": 16.39,
       "beta": 2.455,
-      "pe_ratio": 49.101917,
+      "pe_ratio": 49.01652,
       "div_yield": 0.0
     },
     {
@@ -357,7 +357,7 @@
       "vol_ratio": 0.69,
       "rel_vs_ndx": 32.18,
       "beta": null,
-      "pe_ratio": 56.002728,
+      "pe_ratio": 56.175163,
       "div_yield": 0.0
     },
     {
@@ -378,8 +378,8 @@
       "vol_ratio": 1.08,
       "rel_vs_ndx": 20.23,
       "beta": 1.868,
-      "pe_ratio": 61.448864,
-      "div_yield": 34.0
+      "pe_ratio": 61.332706,
+      "div_yield": 32.0
     },
     {
       "rank": 18,
@@ -399,7 +399,7 @@
       "vol_ratio": 0.8,
       "rel_vs_ndx": 29.85,
       "beta": 2.492,
-      "pe_ratio": 164.54027,
+      "pe_ratio": 163.98996,
       "div_yield": 0.0
     },
     {
@@ -441,8 +441,8 @@
       "vol_ratio": 0.94,
       "rel_vs_ndx": 4.34,
       "beta": 1.105,
-      "pe_ratio": 41.02935,
-      "div_yield": 74.0
+      "pe_ratio": 40.98639,
+      "div_yield": 75.0
     },
     {
       "rank": 21,
@@ -462,7 +462,7 @@
       "vol_ratio": 1.25,
       "rel_vs_ndx": 9.48,
       "beta": 1.149,
-      "pe_ratio": 91.89744,
+      "pe_ratio": 91.683716,
       "div_yield": 0.0
     },
     {
@@ -483,8 +483,8 @@
       "vol_ratio": 0.71,
       "rel_vs_ndx": 14.46,
       "beta": 2.083,
-      "pe_ratio": 83.422455,
-      "div_yield": 35.0
+      "pe_ratio": 83.343155,
+      "div_yield": 34.0
     },
     {
       "rank": 23,
@@ -504,8 +504,8 @@
       "vol_ratio": 0.93,
       "rel_vs_ndx": 15.99,
       "beta": 2.2,
-      "pe_ratio": 31.496115,
-      "div_yield": 12.0
+      "pe_ratio": 31.552692,
+      "div_yield": 11.0
     },
     {
       "rank": 24,
@@ -526,7 +526,7 @@
       "rel_vs_ndx": -3.8,
       "beta": 0.992,
       "pe_ratio": 25.2,
-      "div_yield": 120.0
+      "div_yield": 118.0
     },
     {
       "rank": 25,
@@ -547,7 +547,7 @@
       "rel_vs_ndx": -0.44,
       "beta": 0.424,
       "pe_ratio": 22.777777,
-      "div_yield": 301.0
+      "div_yield": 299.0
     },
     {
       "rank": 26,
@@ -556,9 +556,9 @@
       "sector": "Diversified Commercial Services",
       "rsl": 1.045,
       "percentile": 75.7,
-      "price": 229.07,
+      "price": 229.08,
       "change_26t": 6.94,
-      "change_1m": 8.22,
+      "change_1m": 8.23,
       "change_3m": 9.86,
       "change_6m": -9.14,
       "pct_over_ma50": 8.86,
@@ -568,7 +568,7 @@
       "rel_vs_ndx": 0.79,
       "beta": 0.845,
       "pe_ratio": 21.368937,
-      "div_yield": 293.0
+      "div_yield": 297.0
     },
     {
       "rank": 27,
@@ -589,7 +589,7 @@
       "rel_vs_ndx": 1.56,
       "beta": null,
       "pe_ratio": 21.836643,
-      "div_yield": 473.0
+      "div_yield": 481.0
     },
     {
       "rank": 28,
@@ -609,8 +609,8 @@
       "vol_ratio": 0.99,
       "rel_vs_ndx": -0.53,
       "beta": 0.416,
-      "pe_ratio": 24.059153,
-      "div_yield": 288.0
+      "pe_ratio": 24.042421,
+      "div_yield": 292.0
     },
     {
       "rank": 29,
@@ -651,8 +651,8 @@
       "vol_ratio": 1.02,
       "rel_vs_ndx": -7.33,
       "beta": 0.695,
-      "pe_ratio": 27.282013,
-      "div_yield": 110.0
+      "pe_ratio": 27.323664,
+      "div_yield": 112.0
     },
     {
       "rank": 31,
@@ -673,7 +673,7 @@
       "rel_vs_ndx": -3.72,
       "beta": 0.729,
       "pe_ratio": 40.707966,
-      "div_yield": 197.0
+      "div_yield": 200.0
     },
     {
       "rank": 32,
@@ -735,8 +735,8 @@
       "vol_ratio": 1.37,
       "rel_vs_ndx": -3.93,
       "beta": 0.475,
-      "pe_ratio": 19.281376,
-      "div_yield": 254.0
+      "pe_ratio": 19.399185,
+      "div_yield": 253.0
     },
     {
       "rank": 35,
@@ -757,7 +757,7 @@
       "rel_vs_ndx": -4.37,
       "beta": 0.81,
       "pe_ratio": 11.494577,
-      "div_yield": 248.0
+      "div_yield": 249.0
     },
     {
       "rank": 36,
@@ -778,7 +778,7 @@
       "rel_vs_ndx": -0.44,
       "beta": 0.076,
       "pe_ratio": null,
-      "div_yield": 709.0
+      "div_yield": 685.0
     },
     {
       "rank": 37,
@@ -793,13 +793,13 @@
       "change_3m": -10.38,
       "change_6m": -5.88,
       "pct_over_ma50": 0.87,
-      "pct_over_ma200": -7.23,
+      "pct_over_ma200": -7.22,
       "pct_from_high": -23.0,
       "vol_ratio": 1.12,
       "rel_vs_ndx": -3.49,
       "beta": 0.934,
-      "pe_ratio": 36.556843,
-      "div_yield": 100.0
+      "pe_ratio": 36.63397,
+      "div_yield": 104.0
     },
     {
       "rank": 38,
@@ -820,7 +820,7 @@
       "rel_vs_ndx": -6.77,
       "beta": 0.866,
       "pe_ratio": 31.76257,
-      "div_yield": 77.0
+      "div_yield": 78.0
     },
     {
       "rank": 39,
@@ -840,7 +840,7 @@
       "vol_ratio": 1.08,
       "rel_vs_ndx": -1.66,
       "beta": 0.31,
-      "pe_ratio": 26.288425,
+      "pe_ratio": 26.319668,
       "div_yield": 0.0
     },
     {
@@ -882,7 +882,7 @@
       "vol_ratio": 1.01,
       "rel_vs_ndx": -7.26,
       "beta": 1.543,
-      "pe_ratio": 41.262497,
+      "pe_ratio": 41.32327,
       "div_yield": 0.0
     },
     {
@@ -903,7 +903,7 @@
       "vol_ratio": 1.1,
       "rel_vs_ndx": -5.51,
       "beta": 0.645,
-      "pe_ratio": 57.89174,
+      "pe_ratio": 57.727272,
       "div_yield": 37.0
     },
     {
@@ -924,8 +924,8 @@
       "vol_ratio": 0.87,
       "rel_vs_ndx": 17.33,
       "beta": 1.596,
-      "pe_ratio": 23.390976,
-      "div_yield": 170.0
+      "pe_ratio": 23.416128,
+      "div_yield": 169.0
     },
     {
       "rank": 44,
@@ -945,8 +945,8 @@
       "vol_ratio": 1.2,
       "rel_vs_ndx": 1.59,
       "beta": 1.086,
-      "pe_ratio": 36.46191,
-      "div_yield": 35.0
+      "pe_ratio": 36.506054,
+      "div_yield": 36.0
     },
     {
       "rank": 45,
@@ -966,8 +966,8 @@
       "vol_ratio": 0.79,
       "rel_vs_ndx": -12.98,
       "beta": 0.762,
-      "pe_ratio": 20.846346,
-      "div_yield": 110.0
+      "pe_ratio": 20.833332,
+      "div_yield": 109.0
     },
     {
       "rank": 46,
@@ -988,7 +988,7 @@
       "rel_vs_ndx": -5.78,
       "beta": 0.4,
       "pe_ratio": 30.495049,
-      "div_yield": 322.0
+      "div_yield": 325.0
     },
     {
       "rank": 47,
@@ -1009,7 +1009,7 @@
       "rel_vs_ndx": -8.9,
       "beta": 0.41,
       "pe_ratio": 16.410255,
-      "div_yield": 367.0
+      "div_yield": 375.0
     },
     {
       "rank": 48,
@@ -1029,8 +1029,8 @@
       "vol_ratio": 1.23,
       "rel_vs_ndx": -7.02,
       "beta": 0.732,
-      "pe_ratio": 33.28382,
-      "div_yield": 126.0
+      "pe_ratio": 33.328022,
+      "div_yield": 128.0
     },
     {
       "rank": 49,
@@ -1051,7 +1051,7 @@
       "rel_vs_ndx": -10.23,
       "beta": 1.088,
       "pe_ratio": 21.41161,
-      "div_yield": 97.0
+      "div_yield": 99.0
     },
     {
       "rank": 50,
@@ -1072,7 +1072,7 @@
       "rel_vs_ndx": -12.03,
       "beta": 0.938,
       "pe_ratio": 20.715652,
-      "div_yield": 147.0
+      "div_yield": 142.0
     },
     {
       "rank": 51,
@@ -1092,8 +1092,8 @@
       "vol_ratio": 1.16,
       "rel_vs_ndx": -10.18,
       "beta": 0.391,
-      "pe_ratio": 202.23979,
-      "div_yield": 228.0
+      "pe_ratio": 204.32474,
+      "div_yield": 222.0
     },
     {
       "rank": 52,
@@ -1110,7 +1110,7 @@
       "pct_over_ma50": -0.31,
       "pct_over_ma200": 4.31,
       "pct_from_high": -6.76,
-      "vol_ratio": 0.99,
+      "vol_ratio": 0.98,
       "rel_vs_ndx": -11.25,
       "beta": 1.159,
       "pe_ratio": 33.19259,
@@ -1152,11 +1152,11 @@
       "pct_over_ma50": 14.16,
       "pct_over_ma200": 31.06,
       "pct_from_high": -9.48,
-      "vol_ratio": 1.27,
+      "vol_ratio": 1.25,
       "rel_vs_ndx": -4.15,
       "beta": 1.788,
       "pe_ratio": 28.817226,
-      "div_yield": 137.0
+      "div_yield": 135.0
     },
     {
       "rank": 55,
@@ -1176,8 +1176,8 @@
       "vol_ratio": 1.24,
       "rel_vs_ndx": -7.68,
       "beta": 1.691,
-      "pe_ratio": 112.01006,
-      "div_yield": 54.0
+      "pe_ratio": 111.13187,
+      "div_yield": 51.0
     },
     {
       "rank": 56,
@@ -1198,7 +1198,7 @@
       "rel_vs_ndx": -4.31,
       "beta": 1.183,
       "pe_ratio": 60.282093,
-      "div_yield": 110.0
+      "div_yield": 109.0
     },
     {
       "rank": 57,
@@ -1218,8 +1218,8 @@
       "vol_ratio": 0.96,
       "rel_vs_ndx": -6.59,
       "beta": 1.103,
-      "pe_ratio": 24.522928,
-      "div_yield": 87.0
+      "pe_ratio": 24.508333,
+      "div_yield": 88.0
     },
     {
       "rank": 58,
@@ -1260,8 +1260,8 @@
       "vol_ratio": 1.23,
       "rel_vs_ndx": -12.88,
       "beta": 0.518,
-      "pe_ratio": 18.78074,
-      "div_yield": 294.0
+      "pe_ratio": 18.752958,
+      "div_yield": 300.0
     },
     {
       "rank": 60,
@@ -1320,7 +1320,7 @@
       "pct_over_ma50": -2.54,
       "pct_over_ma200": 7.73,
       "pct_from_high": -11.71,
-      "vol_ratio": 1.34,
+      "vol_ratio": 1.33,
       "rel_vs_ndx": -8.0,
       "beta": 1.55,
       "pe_ratio": null,
@@ -1345,7 +1345,7 @@
       "rel_vs_ndx": -12.16,
       "beta": 0.408,
       "pe_ratio": 22.368877,
-      "div_yield": 300.0
+      "div_yield": 305.0
     },
     {
       "rank": 64,
@@ -1365,7 +1365,7 @@
       "vol_ratio": 0.78,
       "rel_vs_ndx": -1.51,
       "beta": 1.798,
-      "pe_ratio": 375.18347,
+      "pe_ratio": 371.77274,
       "div_yield": 0.0
     },
     {
@@ -1386,8 +1386,8 @@
       "vol_ratio": 1.4,
       "rel_vs_ndx": -9.5,
       "beta": 0.796,
-      "pe_ratio": 48.9037,
-      "div_yield": 248.0
+      "pe_ratio": 49.639095,
+      "div_yield": 251.0
     },
     {
       "rank": 66,
@@ -1407,8 +1407,8 @@
       "vol_ratio": 1.17,
       "rel_vs_ndx": -2.11,
       "beta": 1.309,
-      "pe_ratio": 49.81164,
-      "div_yield": 199.0
+      "pe_ratio": 49.726494,
+      "div_yield": 195.0
     },
     {
       "rank": 67,
@@ -1429,7 +1429,7 @@
       "rel_vs_ndx": -8.85,
       "beta": 0.331,
       "pe_ratio": 17.428572,
-      "div_yield": 254.0
+      "div_yield": 256.0
     },
     {
       "rank": 68,
@@ -1470,8 +1470,8 @@
       "vol_ratio": 1.08,
       "rel_vs_ndx": -0.89,
       "beta": 2.202,
-      "pe_ratio": 32.0,
-      "div_yield": 49.0
+      "pe_ratio": 31.950994,
+      "div_yield": 48.0
     },
     {
       "rank": 70,
@@ -1491,7 +1491,7 @@
       "vol_ratio": 1.21,
       "rel_vs_ndx": -14.71,
       "beta": 1.453,
-      "pe_ratio": 50.863914,
+      "pe_ratio": 50.740604,
       "div_yield": 0.0
     },
     {
@@ -1512,8 +1512,8 @@
       "vol_ratio": 1.13,
       "rel_vs_ndx": -9.8,
       "beta": 0.868,
-      "pe_ratio": 48.93323,
-      "div_yield": 61.0
+      "pe_ratio": 49.031693,
+      "div_yield": 60.0
     },
     {
       "rank": 72,
@@ -1533,7 +1533,7 @@
       "vol_ratio": 0.87,
       "rel_vs_ndx": -19.02,
       "beta": 1.348,
-      "pe_ratio": 42.487877,
+      "pe_ratio": 42.555172,
       "div_yield": 0.0
     },
     {
@@ -1555,7 +1555,7 @@
       "rel_vs_ndx": -5.93,
       "beta": 0.843,
       "pe_ratio": 33.779903,
-      "div_yield": 222.0
+      "div_yield": 225.0
     },
     {
       "rank": 74,
@@ -1597,7 +1597,7 @@
       "rel_vs_ndx": -8.41,
       "beta": 1.725,
       "pe_ratio": 415.3182,
-      "div_yield": 206.0
+      "div_yield": 199.0
     },
     {
       "rank": 76,
@@ -1617,8 +1617,8 @@
       "vol_ratio": 1.29,
       "rel_vs_ndx": -9.99,
       "beta": 1.229,
-      "pe_ratio": 21.271439,
-      "div_yield": 35.0
+      "pe_ratio": 21.279171,
+      "div_yield": 36.0
     },
     {
       "rank": 77,
@@ -1639,7 +1639,7 @@
       "rel_vs_ndx": -15.84,
       "beta": 0.359,
       "pe_ratio": 22.084772,
-      "div_yield": 417.0
+      "div_yield": 421.0
     },
     {
       "rank": 78,
@@ -1660,7 +1660,7 @@
       "rel_vs_ndx": -16.01,
       "beta": 0.178,
       "pe_ratio": 23.902298,
-      "div_yield": 305.0
+      "div_yield": 315.0
     },
     {
       "rank": 79,
@@ -1677,10 +1677,10 @@
       "pct_over_ma50": 0.89,
       "pct_over_ma200": 85.64,
       "pct_from_high": -14.97,
-      "vol_ratio": 1.08,
+      "vol_ratio": 1.09,
       "rel_vs_ndx": -11.89,
       "beta": 1.479,
-      "pe_ratio": 157.08772,
+      "pe_ratio": 158.75888,
       "div_yield": 0.0
     },
     {
@@ -1701,7 +1701,7 @@
       "vol_ratio": 0.98,
       "rel_vs_ndx": -19.43,
       "beta": 1.811,
-      "pe_ratio": 71.92925,
+      "pe_ratio": 72.61429,
       "div_yield": 0.0
     },
     {
@@ -1752,7 +1752,7 @@
       "company": "Comcast",
       "sector": "Cable & Other Pay Television Services",
       "rsl": 0.9457,
-      "percentile": 18.8,
+      "percentile": 18.3,
       "price": 23.76,
       "change_26t": -12.61,
       "change_1m": -5.07,
@@ -1765,27 +1765,27 @@
       "rel_vs_ndx": -18.76,
       "beta": 0.658,
       "pe_ratio": 4.6588235,
-      "div_yield": 554.0
+      "div_yield": 556.0
     },
     {
       "rank": 84,
       "ticker": "GOOG",
       "company": "Alphabet Inc. (Class C)",
       "sector": "Computer Software",
-      "rsl": 0.9451,
-      "percentile": 17.8,
+      "rsl": 0.9457,
+      "percentile": 18.3,
       "price": 361.17,
-      "change_26t": -5.75,
-      "change_1m": -6.62,
-      "change_3m": 19.81,
-      "change_6m": 14.77,
-      "pct_over_ma50": 2.18,
-      "pct_over_ma200": 18.7,
-      "pct_from_high": -9.49,
+      "change_26t": -5.7,
+      "change_1m": -6.56,
+      "change_3m": 19.88,
+      "change_6m": 14.84,
+      "pct_over_ma50": 2.24,
+      "pct_over_ma200": 18.77,
+      "pct_from_high": -9.44,
       "vol_ratio": 1.56,
-      "rel_vs_ndx": -11.9,
+      "rel_vs_ndx": -11.85,
       "beta": 1.237,
-      "pe_ratio": 27.591291,
+      "pe_ratio": 27.5492,
       "div_yield": 24.0
     },
     {
@@ -1806,16 +1806,37 @@
       "vol_ratio": 1.05,
       "rel_vs_ndx": -9.33,
       "beta": 1.214,
-      "pe_ratio": 108.34783,
+      "pe_ratio": 108.59633,
       "div_yield": 0.0
     },
     {
       "rank": 86,
+      "ticker": "GOOGL",
+      "company": "Alphabet Inc. (Class A)",
+      "sector": "Computer Software",
+      "rsl": 0.9429,
+      "percentile": 15.8,
+      "price": 363.31,
+      "change_26t": -5.75,
+      "change_1m": -6.46,
+      "change_3m": 20.26,
+      "change_6m": 15.6,
+      "pct_over_ma50": 2.07,
+      "pct_over_ma200": 19.33,
+      "pct_from_high": -9.71,
+      "vol_ratio": 1.46,
+      "rel_vs_ndx": -11.9,
+      "beta": 1.237,
+      "pe_ratio": 27.69131,
+      "div_yield": 24.0
+    },
+    {
+      "rank": 87,
       "ticker": "TTWO",
       "company": "Take-Two Interactive",
       "sector": "Miscellaneous Amusement & Recreation Services",
       "rsl": 0.9427,
-      "percentile": 15.8,
+      "percentile": 14.9,
       "price": 212.55,
       "change_26t": -1.61,
       "change_1m": -4.03,
@@ -1829,27 +1850,6 @@
       "beta": 0.982,
       "pe_ratio": null,
       "div_yield": 0.0
-    },
-    {
-      "rank": 87,
-      "ticker": "GOOGL",
-      "company": "Alphabet Inc. (Class A)",
-      "sector": "Computer Software",
-      "rsl": 0.9423,
-      "percentile": 14.9,
-      "price": 363.31,
-      "change_26t": -5.8,
-      "change_1m": -6.52,
-      "change_3m": 20.19,
-      "change_6m": 15.53,
-      "pct_over_ma50": 2.01,
-      "pct_over_ma200": 19.25,
-      "pct_from_high": -9.76,
-      "vol_ratio": 1.46,
-      "rel_vs_ndx": -11.95,
-      "beta": 1.237,
-      "pe_ratio": 27.69131,
-      "div_yield": 24.0
     },
     {
       "rank": 88,
@@ -1890,7 +1890,7 @@
       "vol_ratio": 1.08,
       "rel_vs_ndx": -14.05,
       "beta": 1.295,
-      "pe_ratio": 32.852554,
+      "pe_ratio": 32.90058,
       "div_yield": 0.0
     },
     {
@@ -1911,8 +1911,8 @@
       "vol_ratio": 2.11,
       "rel_vs_ndx": -12.01,
       "beta": 1.433,
-      "pe_ratio": 65.8804,
-      "div_yield": 67.0
+      "pe_ratio": 65.77114,
+      "div_yield": 66.0
     },
     {
       "rank": 91,
@@ -1933,7 +1933,7 @@
       "rel_vs_ndx": -16.09,
       "beta": 0.977,
       "pe_ratio": 72.38168,
-      "div_yield": 260.0
+      "div_yield": 262.0
     },
     {
       "rank": 92,
@@ -1953,7 +1953,7 @@
       "vol_ratio": 0.97,
       "rel_vs_ndx": -14.74,
       "beta": 1.444,
-      "pe_ratio": 31.559845,
+      "pe_ratio": 31.64129,
       "div_yield": 0.0
     },
     {
@@ -1971,11 +1971,11 @@
       "pct_over_ma50": -13.09,
       "pct_over_ma200": -11.94,
       "pct_from_high": -24.53,
-      "vol_ratio": 1.14,
+      "vol_ratio": 1.1,
       "rel_vs_ndx": -18.86,
       "beta": 0.238,
-      "pe_ratio": 14.91437,
-      "div_yield": 59.0
+      "pe_ratio": 14.925294,
+      "div_yield": 62.0
     },
     {
       "rank": 94,
@@ -2016,7 +2016,7 @@
       "vol_ratio": 1.04,
       "rel_vs_ndx": -29.17,
       "beta": 0.707,
-      "pe_ratio": 3.5778077,
+      "pe_ratio": 3.57684,
       "div_yield": 0.0
     },
     {
@@ -2058,8 +2058,8 @@
       "vol_ratio": 1.36,
       "rel_vs_ndx": -24.59,
       "beta": 1.091,
-      "pe_ratio": 21.759548,
-      "div_yield": 67.0
+      "pe_ratio": 21.778454,
+      "div_yield": 68.0
     },
     {
       "rank": 98,
@@ -2097,11 +2097,11 @@
       "pct_over_ma50": -18.77,
       "pct_over_ma200": -43.07,
       "pct_from_high": -61.9,
-      "vol_ratio": 1.42,
+      "vol_ratio": 1.4,
       "rel_vs_ndx": -29.59,
       "beta": 0.964,
       "pe_ratio": 18.651405,
-      "div_yield": 162.0
+      "div_yield": 157.0
     },
     {
       "rank": 100,
@@ -2419,7 +2419,7 @@
     },
     {
       "sector": "Computer Software",
-      "avg_rsl": 0.9766,
+      "avg_rsl": 0.9767,
       "median_rsl": 0.9789,
       "count": 17,
       "avg_change_26t": 1.86,
