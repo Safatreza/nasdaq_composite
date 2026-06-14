@@ -2,7 +2,10 @@ name: RSL Nasdaq-100 Update
 
 on:
   schedule:
-    - cron: '0 10,22 * * 1-5'  # Weekdays at 10:00 UTC (pre-market) and 22:00 UTC (post-close)
+    # Anchored to Monday 16:00 German time, then every 8 hours until Friday night.
+    # GitHub cron runs in UTC: 14:00 UTC = 16:00 CEST (summer) / 15:00 CET (winter).
+    - cron: '0 14,22 * * 1'    # Mon 16:00 and 24:00 German time
+    - cron: '0 6,14,22 * * 2-5'  # Tue-Fri 08:00, 16:00, 24:00 German time
   workflow_dispatch:  # Manual trigger also available
 
 jobs:
