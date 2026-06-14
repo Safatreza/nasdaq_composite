@@ -113,6 +113,7 @@
     .ticker  { font-weight: 700; color: var(--navy); font-size: 13px; }
     .company { color: var(--muted); font-size: 12px; max-width: 200px; overflow: hidden; text-overflow: ellipsis; }
     .vol-surge { font-weight: 600; color: #7d4f00; background: #fff3cd; padding: 1px 6px; border-radius: 4px; }
+    .atr-warn { font-weight: 700; color: #9c0006; background: #ffc7ce; padding: 1px 6px; border-radius: 4px; white-space: nowrap; }
 
     .pagination { display: flex; gap: 6px; align-items: center; padding: 14px 20px;
                   border-top: 1px solid var(--border); justify-content: center; }
@@ -182,6 +183,11 @@
       <div class="value" id="stat-min-ticker" style="font-size:20px">—</div>
       <div class="sub" id="stat-min-rsl">RSL —</div>
     </div>
+    <div class="card red">
+      <div class="label">⚠ Volatilitäts-Warnung</div>
+      <div class="value" id="stat-atr-warn">—</div>
+      <div class="sub">ATR über 5% pro Tag</div>
+    </div>
   </div>
 
   <div class="returns-row">
@@ -224,6 +230,7 @@
             <th onclick="sortBy('rel_vs_ndx')">vs NDX</th>
             <th onclick="sortBy('beta')">Beta</th>
             <th onclick="sortBy('pe_ratio')">KGV</th>
+            <th onclick="sortBy('atr_pct')" title="Ø tägliche Schwankung (ATR 14 Tage) in % vom Kurs — über 5% = Warnsignal">ATR % ⚠</th>
           </tr>
         </thead>
         <tbody id="rankings-body"></tbody>
@@ -260,7 +267,7 @@
 
 <footer>
   RSL Screening — Nur für Bildungs- und Forschungszwecke. Keine Anlageberatung. |
-  Daten: Yahoo Finance &amp; Wikipedia | 2× täglich aktualisiert (Mo–Fr)
+  Daten: Yahoo Finance &amp; Wikipedia | Aktualisierung: Mo ab 16:00 (dt. Zeit), dann alle 8 Std. bis Fr
 </footer>
 
 <script>
@@ -309,6 +316,7 @@ function initPage(json) {
   document.getElementById('stat-max-rsl').textContent    = 'RSL ' + s.max_rsl.toFixed(4);
   document.getElementById('stat-min-ticker').textContent = s.min_ticker;
   document.getElementById('stat-min-rsl').textContent    = 'RSL ' + s.min_rsl.toFixed(4);
+  document.getElementById('stat-atr-warn').textContent   = allData.filter(r => r.atr_warning).length;
 
   setReturn('ret-26t', s.returns_avg['26t']);
   setReturn('ret-1m',  s.returns_avg['1m']);
@@ -399,6 +407,11 @@ function renderTable() {
     const vol = r.vol_ratio != null && r.vol_ratio > 1.5
       ? `<span class="vol-surge">${r.vol_ratio.toFixed(2)}x</span>`
       : (r.vol_ratio != null ? r.vol_ratio.toFixed(2) : '—');
+    const atr = r.atr_pct == null
+      ? '<span style="color:#aaa">—</span>'
+      : (r.atr_warning
+          ? `<span class="atr-warn" title="Tägliche Schwankung über 5% — erhöhtes Risiko">⚠ ${r.atr_pct.toFixed(2)}%</span>`
+          : r.atr_pct.toFixed(2) + '%');
     return `<tr class="${isTop ? 'top25' : ''}">
       <td style="color:var(--muted);font-size:12px">${r.rank}</td>
       <td><div class="ticker">${r.ticker}</div><div class="company">${r.company}</div></td>
@@ -416,6 +429,7 @@ function renderTable() {
       <td>${fmtPct(r.rel_vs_ndx)}</td>
       <td>${fmtNum(r.beta)}</td>
       <td>${r.pe_ratio != null ? fmtNum(r.pe_ratio) : '—'}</td>
+      <td>${atr}</td>
     </tr>`;
   }).join('');
 
